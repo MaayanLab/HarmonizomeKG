@@ -269,8 +269,8 @@
         "icon": {
             "src": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
             "favicon": "https://minio.dev.maayanlab.cloud/enrichr-kg/enrichr-kg.png",
-            "faviconTitle": "Enrichr-KG",
-            "alt": "Enrichr-KG",
+            "faviconTitle": "Harmonizome-KG",
+            "alt": "Harmonizmoe-KG",
             "key": "Enrichr-KG_logo",
             "width": 100,
             "height": 60
