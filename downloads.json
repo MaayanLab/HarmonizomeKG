@@ -1,0 +1,1010 @@
+[
+    {
+        "source": "Achilles",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/achilles.new_archive.zip",
+        "size": "969.51KB",
+        "updated": "07-01-2024",
+        "nodes": 5047,
+        "edges": 104046
+    },
+    {
+        "source": "Azimuth Cell Type",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/azimuth.new_archive.zip",
+        "size": "124.06KB",
+        "updated": "07-01-2024",
+        "nodes": 4986,
+        "edges": 13794
+    },
+    {
+        "source": "Biocarta",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biocarta.new_archive.zip",
+        "size": "32.37KB",
+        "updated": "07-01-2024",
+        "nodes": 1651,
+        "edges": 4509
+    },
+    {
+        "source": "BioGPS Human",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpshuman.new_archive.zip",
+        "size": "1.81MB",
+        "updated": "07-01-2024",
+        "nodes": 16463,
+        "edges": 205445
+    },
+    {
+        "source": "BioGPS Mouse",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsmouse.new_archive.zip",
+        "size": "1.50MB",
+        "updated": "07-01-2024",
+        "nodes": 15511,
+        "edges": 170878
+    },
+    {
+        "source": "BioGPS NCI-60",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsnci60.new_archive.zip",
+        "size": "1.68MB",
+        "updated": "07-01-2024",
+        "nodes": 12721,
+        "edges": 204284
+    },
+    {
+        "source": "ABA Adult Human",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadulthuman.new_archive.zip",
+        "size": "9.26MB",
+        "updated": "07-01-2024",
+        "nodes": 18393,
+        "edges": 1115464
+    },
+    {
+        "source": "ABA Adult Mouse",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadultmouse.new_archive.zip",
+        "size": "25.95MB",
+        "updated": "07-01-2024",
+        "nodes": 16467,
+        "edges": 3178416
+    },
+    {
+        "source": "ABA Developmental Human Microarray",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasdevelopmentalhumanmicroarray.new_archive.zip",
+        "size": "10.55MB",
+        "updated": "07-01-2024",
+        "nodes": 17730,
+        "edges": 1270962
+    },
+    {
+        "source": "ABA Developmental Human RNA Seq",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasdevelopmentalhumanrnaseq.new_archive.zip",
+        "size": "9.85MB",
+        "updated": "07-01-2024",
+        "nodes": 15596,
+        "edges": 1183125
+    },
+    {
+        "source": "ABA Prenatal Human",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasprenatalhuman.new_archive.zip",
+        "size": "12.25MB",
+        "updated": "07-01-2024",
+        "nodes": 19465,
+        "edges": 1464892
+    },
+    {
+        "source": "CCLE CNV",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclecnv.new_archive.zip",
+        "size": "9.17MB",
+        "updated": "07-01-2024",
+        "nodes": 24300,
+        "edges": 1148953
+    },
+    {
+        "source": "CCLE Gene Expression",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclemrna.new_archive.zip",
+        "size": "6.69MB",
+        "updated": "07-01-2024",
+        "nodes": 19060,
+        "edges": 751223
+    },
+    {
+        "source": "CCLE Mutations",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclemut.new_archive.zip",
+        "size": "453.21KB",
+        "updated": "07-01-2024",
+        "nodes": 2571,
+        "edges": 105921
+    },
+    {
+        "source": "CCLE Proteomics",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ccleproteomics.new_archive.zip",
+        "size": "881.01KB",
+        "updated": "07-01-2024",
+        "nodes": 9334,
+        "edges": 122680
+    },
+    {
+        "source": "CellMarker",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cellmarker.new_archive.zip",
+        "size": "551.23KB",
+        "updated": "07-01-2024",
+        "nodes": 20826,
+        "edges": 65981
+    },
+    {
+        "source": "ChEA Binding Site 2022",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/chea22.new_archive.zip",
+        "size": "3.85MB",
+        "updated": "07-01-2024",
+        "nodes": 18719,
+        "edges": 917047
+    },
+    {
+        "source": "ChEA TF Targets",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cheatargets.new_archive.zip",
+        "size": "1.55MB",
+        "updated": "07-01-2024",
+        "nodes": 21423,
+        "edges": 386776
+    },
+    {
+        "source": "ClinVar",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/clinvar.new_archive.zip",
+        "size": "92.91KB",
+        "updated": "07-01-2024",
+        "nodes": 5749,
+        "edges": 3638
+    },
+    {
+        "source": "CMAP Small Molecule Perturbations",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cmap.new_archive.zip",
+        "size": "5.67MB",
+        "updated": "07-01-2024",
+        "nodes": 18248,
+        "edges": 1201897
+    },
+    {
+        "source": "CORUM",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/corum.new_archive.zip",
+        "size": "105.32KB",
+        "updated": "07-01-2024",
+        "nodes": 4865,
+        "edges": 9015
+    },
+    {
+        "source": "COSMIC CNV",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cosmiccnv.new_archive.zip",
+        "size": "621.65KB",
+        "updated": "07-01-2024",
+        "nodes": 20707,
+        "edges": 102249
+    },
+    {
+        "source": "COSMIC Mutations",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cosmicmut.new_archive.zip",
+        "size": "3.09MB",
+        "updated": "07-01-2024",
+        "nodes": 18876,
+        "edges": 746376
+    },
+    {
+        "source": "CTD Chemical",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ctdchemical.new_archive.zip",
+        "size": "721.92KB",
+        "updated": "07-01-2024",
+        "nodes": 20641,
+        "edges": 124344
+    },
+    {
+        "source": "CTD Disease",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ctddisease.new_archive.zip",
+        "size": "6.19MB",
+        "updated": "07-01-2024",
+        "nodes": 22473,
+        "edges": 888519
+    },
+    {
+        "source": "dbGAP",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/dbgap.new_archive.zip",
+        "size": "169.66KB",
+        "updated": "07-01-2024",
+        "nodes": 6178,
+        "edges": 12769
+    },
+    {
+        "source": "DeepCoverMOA",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/deepcovermoa.new_archive.zip",
+        "size": "1.16MB",
+        "updated": "07-01-2024",
+        "nodes": 8624,
+        "edges": 173748
+    },
+    {
+        "source": "DepMap Gene Dependency",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/depmapgenedep.new_archive.zip",
+        "size": "5.15MB",
+        "updated": "07-01-2024",
+        "nodes": 17041,
+        "edges": 697098
+    },
+    {
+        "source": "DEPOD",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/depod.new_archive.zip",
+        "size": "6.80KB",
+        "updated": "07-01-2024",
+        "nodes": 405,
+        "edges": 819
+    },
+    {
+        "source": "DrugBank",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/drugbank.new_archive.zip",
+        "size": "160.41KB",
+        "updated": "07-01-2024",
+        "nodes": 7296,
+        "edges": 15261
+    },
+    {
+        "source": "ENCODE Histone Modification",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodehm.new_archive.zip",
+        "size": "16.22MB",
+        "updated": "07-01-2024",
+        "nodes": 22442,
+        "edges": 4454173
+    },
+    {
+        "source": "ENCODE TF Binding",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodetfbind.new_archive.zip",
+        "size": "31.48MB",
+        "updated": "07-01-2024",
+        "nodes": 24524,
+        "edges": 8803973
+    },
+    {
+        "source": "ENCODE TF Targets",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodetfppi.new_archive.zip",
+        "size": "6.05MB",
+        "updated": "07-01-2024",
+        "nodes": 22633,
+        "edges": 1655383
+    },
+    {
+        "source": "Roadmap Epigenomics DNA Methylation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicsdnamethylation.new_archive.zip",
+        "size": "537.38KB",
+        "updated": "07-01-2024",
+        "nodes": 13715,
+        "edges": 49516
+    },
+    {
+        "source": "Roadmap Epigenomics Histone Modification",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicshm.new_archive.zip",
+        "size": "5.05MB",
+        "updated": "07-01-2024",
+        "nodes": 21415,
+        "edges": 1201230
+    },
+    {
+        "source": "Roadmap Epigenomics Gene Expression",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicsmrna.new_archive.zip",
+        "size": "1.01MB",
+        "updated": "07-01-2024",
+        "nodes": 12881,
+        "edges": 109318
+    },
+    {
+        "source": "GAD Cell Line",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gad.new_archive.zip",
+        "size": "763.23KB",
+        "updated": "07-01-2024",
+        "nodes": 23480,
+        "edges": 75029
+    },
+    {
+        "source": "GAD High Level",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gadhighlevel.new_archive.zip",
+        "size": "184.06KB",
+        "updated": "07-01-2024",
+        "nodes": 8034,
+        "edges": 28200
+    },
+    {
+        "source": "GDSC",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gdsc.new_archive.zip",
+        "size": "2.53MB",
+        "updated": "07-01-2024",
+        "nodes": 12328,
+        "edges": 280242
+    },
+    {
+        "source": "GeneRIF",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/generif.new_archive.zip",
+        "size": "10.91MB",
+        "updated": "07-01-2024",
+        "nodes": 106242,
+        "edges": 2549276
+    },
+    {
+        "source": "GeneSigDB",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/genesigdb.new_archive.zip",
+        "size": "1.95MB",
+        "updated": "07-01-2024",
+        "nodes": 23024,
+        "edges": 416256
+    },
+    {
+        "source": "GEO Chem Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geochemical.new_archive.zip",
+        "size": "1.43MB",
+        "updated": "07-01-2024",
+        "nodes": 21751,
+        "edges": 318530
+    },
+    {
+        "source": "GEO Disease Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geodisease.new_archive.zip",
+        "size": "1.40MB",
+        "updated": "07-01-2024",
+        "nodes": 18749,
+        "edges": 139800
+    },
+    {
+        "source": "GEO Gene Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geogene.new_archive.zip",
+        "size": "1.95MB",
+        "updated": "07-01-2024",
+        "nodes": 22758,
+        "edges": 367922
+    },
+    {
+        "source": "GEO Kinase Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geokinase.new_archive.zip",
+        "size": "1.64MB",
+        "updated": "07-01-2024",
+        "nodes": 20074,
+        "edges": 171000
+    },
+    {
+        "source": "GEO TF Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geotf.new_archive.zip",
+        "size": "776.69KB",
+        "updated": "07-01-2024",
+        "nodes": 19433,
+        "edges": 151898
+    },
+    {
+        "source": "GEO Virus Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geovirus.new_archive.zip",
+        "size": "1.16MB",
+        "updated": "07-01-2024",
+        "nodes": 20145,
+        "edges": 222682
+    },
+    {
+        "source": "GlyGen",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/glygen.new_archive.zip",
+        "size": "129.34KB",
+        "updated": "07-01-2024",
+        "nodes": 4141,
+        "edges": 20486
+    },
+    {
+        "source": "GO Bio Process 2023",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gobp23.new_archive.zip",
+        "size": "1.24MB",
+        "updated": "07-01-2024",
+        "nodes": 27129,
+        "edges": 198050
+    },
+    {
+        "source": "GO Cellular Component 2023",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gocc23.new_archive.zip",
+        "size": "284.73KB",
+        "updated": "07-01-2024",
+        "nodes": 12015,
+        "edges": 41883
+    },
+    {
+        "source": "GO Molecular Func 2023",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gomf23.new_archive.zip",
+        "size": "397.23KB",
+        "updated": "07-01-2024",
+        "nodes": 16329,
+        "edges": 50339
+    },
+    {
+        "source": "GTEx Aging Signatures",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexagingsignatures.new_archive.zip",
+        "size": "436.19KB",
+        "updated": "07-01-2024",
+        "nodes": 16182,
+        "edges": 67500
+    },
+    {
+        "source": "GTEx eQTL",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexeqtl.new_archive.zip",
+        "size": "78.67KB",
+        "updated": "07-01-2024",
+        "nodes": 7964,
+        "edges": 149
+    },
+    {
+        "source": "GTEx Tissue Sample",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexsample.new_archive.zip",
+        "size": "71.79MB",
+        "updated": "07-01-2024",
+        "nodes": 22167,
+        "edges": 8421702
+    },
+    {
+        "source": "GTEx Tissue 2023",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtextissue23.new_archive.zip",
+        "size": "557.88KB",
+        "updated": "07-01-2024",
+        "nodes": 17422,
+        "edges": 108000
+    },
+    {
+        "source": "Guide To Pharm Chem",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/guidetopharmchemical.new_archive.zip",
+        "size": "119.51KB",
+        "updated": "07-01-2024",
+        "nodes": 5793,
+        "edges": 9380
+    },
+    {
+        "source": "Guide To Pharm Protein",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/guidetopharmprotein.new_archive.zip",
+        "size": "5.28KB",
+        "updated": "07-01-2024",
+        "nodes": 398,
+        "edges": 410
+    },
+    {
+        "source": "GWAS Catalog",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwascatalog.new_archive.zip",
+        "size": "131.38KB",
+        "updated": "07-01-2024",
+        "nodes": 5363,
+        "edges": 8255
+    },
+    {
+        "source": "GWASdb Disease",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwasdbdisease.new_archive.zip",
+        "size": "1.68MB",
+        "updated": "07-01-2024",
+        "nodes": 12389,
+        "edges": 217330
+    },
+    {
+        "source": "GWASdb Phenotype",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwasdbphenotype.new_archive.zip",
+        "size": "2.02MB",
+        "updated": "07-01-2024",
+        "nodes": 13309,
+        "edges": 274574
+    },
+    {
+        "source": "Heiser",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/heiser.new_archive.zip",
+        "size": "1.74MB",
+        "updated": "07-01-2024",
+        "nodes": 15200,
+        "edges": 196872
+    },
+    {
+        "source": "HMDB",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hmdb.new_archive.zip",
+        "size": "2.82MB",
+        "updated": "07-01-2024",
+        "nodes": 27463,
+        "edges": 845725
+    },
+    {
+        "source": "HPA Cell Lines",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpacelllines.new_archive.zip",
+        "size": "944.85KB",
+        "updated": "07-01-2024",
+        "nodes": 15415,
+        "edges": 102943
+    },
+    {
+        "source": "HPA Tissue Samples",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpasamples.new_archive.zip",
+        "size": "2.61MB",
+        "updated": "07-01-2024",
+        "nodes": 16779,
+        "edges": 303282
+    },
+    {
+        "source": "HPA Tissues mRNA",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpatissuesmrna.new_archive.zip",
+        "size": "804.74KB",
+        "updated": "07-01-2024",
+        "nodes": 17457,
+        "edges": 81092
+    },
+    {
+        "source": "HPA Tissue Protein",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpatissuesprotein.new_archive.zip",
+        "size": "1.28MB",
+        "updated": "07-01-2024",
+        "nodes": 15750,
+        "edges": 138585
+    },
+    {
+        "source": "HPM",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpm.new_archive.zip",
+        "size": "65.00KB",
+        "updated": "07-01-2024",
+        "nodes": 4366,
+        "edges": 4362
+    },
+    {
+        "source": "HPO",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpo.new_archive.zip",
+        "size": "1.28MB",
+        "updated": "07-01-2024",
+        "nodes": 10000,
+        "edges": 304995
+    },
+    {
+        "source": "Hub Proteins",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hubs.new_archive.zip",
+        "size": "305.68KB",
+        "updated": "07-01-2024",
+        "nodes": 9651,
+        "edges": 58327
+    },
+    {
+        "source": "HuGE Navigator",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hugenavigator.new_archive.zip",
+        "size": "667.68KB",
+        "updated": "07-01-2024",
+        "nodes": 14770,
+        "edges": 141799
+    },
+    {
+        "source": "HumanCYC Pathways",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/humancyc.new_archive.zip",
+        "size": "22.43KB",
+        "updated": "07-01-2024",
+        "nodes": 1218,
+        "edges": 1839
+    },
+    {
+        "source": "InterPro",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/interpro.new_archive.zip",
+        "size": "551.79KB",
+        "updated": "07-01-2024",
+        "nodes": 29017,
+        "edges": 62614
+    },
+    {
+        "source": "JASPAR PWMs",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jasparpwm.new_archive.zip",
+        "size": "714.50KB",
+        "updated": "07-01-2024",
+        "nodes": 21486,
+        "edges": 148069
+    },
+    {
+        "source": "COMPARTMENTS Curated",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmentcurated.new_archive.zip",
+        "size": "1.55MB",
+        "updated": "07-01-2024",
+        "nodes": 18199,
+        "edges": 328753
+    },
+    {
+        "source": "COMPARTMENTS Expts",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmentexpts.new_archive.zip",
+        "size": "423.27KB",
+        "updated": "07-01-2024",
+        "nodes": 6554,
+        "edges": 91061
+    },
+    {
+        "source": "COMPARTMENTS Text Mining",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmenttextmining.new_archive.zip",
+        "size": "4.23MB",
+        "updated": "07-01-2024",
+        "nodes": 16456,
+        "edges": 546634
+    },
+    {
+        "source": "DISEASES Curated",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseasecurated.new_archive.zip",
+        "size": "96.24KB",
+        "updated": "07-01-2024",
+        "nodes": 3022,
+        "edges": 18144
+    },
+    {
+        "source": "DISEASES Expts",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseaseexpts.new_archive.zip",
+        "size": "229.23KB",
+        "updated": "07-01-2024",
+        "nodes": 4405,
+        "edges": 35164
+    },
+    {
+        "source": "DISEASES Text Mining",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseasetextmining.new_archive.zip",
+        "size": "6.43MB",
+        "updated": "07-01-2024",
+        "nodes": 19937,
+        "edges": 832622
+    },
+    {
+        "source": "TISSUES Curated",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissuecurated.new_archive.zip",
+        "size": "1.40MB",
+        "updated": "07-01-2024",
+        "nodes": 16858,
+        "edges": 357465
+    },
+    {
+        "source": "TISSUES Expts",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissueexpts.new_archive.zip",
+        "size": "1.07MB",
+        "updated": "07-01-2024",
+        "nodes": 15748,
+        "edges": 274154
+    },
+    {
+        "source": "TISSUES TextMining",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissuetextmining.new_archive.zip",
+        "size": "6.62MB",
+        "updated": "07-01-2024",
+        "nodes": 20371,
+        "edges": 1836577
+    },
+    {
+        "source": "KEA",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kea.new_archive.zip",
+        "size": "73.62KB",
+        "updated": "07-01-2024",
+        "nodes": 3863,
+        "edges": 12161
+    },
+    {
+        "source": "KEGG",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kegg.new_archive.zip",
+        "size": "64.33KB",
+        "updated": "07-01-2024",
+        "nodes": 4147,
+        "edges": 9324
+    },
+    {
+        "source": "Kinase Library",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinaselib.new_archive.zip",
+        "size": "168.87KB",
+        "updated": "07-01-2024",
+        "nodes": 5349,
+        "edges": 30299
+    },
+    {
+        "source": "LINCS KiNativ",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinativ.new_archive.zip",
+        "size": "2.87KB",
+        "updated": "07-01-2024",
+        "nodes": 125,
+        "edges": 149
+    },
+    {
+        "source": "LINCS KinomeScan",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinomescan.new_archive.zip",
+        "size": "17.18KB",
+        "updated": "07-01-2024",
+        "nodes": 348,
+        "edges": 2057
+    },
+    {
+        "source": "Klijn CNV",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijncnv.new_archive.zip",
+        "size": "20.14MB",
+        "updated": "07-01-2024",
+        "nodes": 25590,
+        "edges": 2495888
+    },
+    {
+        "source": "Klijn mRNA",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijnmrna.new_archive.zip",
+        "size": "11.64MB",
+        "updated": "07-01-2024",
+        "nodes": 14594,
+        "edges": 1357992
+    },
+    {
+        "source": "Klijn Mutations",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijnmut.new_archive.zip",
+        "size": "678.71KB",
+        "updated": "07-01-2024",
+        "nodes": 15043,
+        "edges": 133818
+    },
+    {
+        "source": "KnockTF",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/knocktf.new_archive.zip",
+        "size": "650.80KB",
+        "updated": "07-01-2024",
+        "nodes": 18529,
+        "edges": 108820
+    },
+    {
+        "source": "IMPC Knockout",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/komp.new_archive.zip",
+        "size": "212.17KB",
+        "updated": "07-01-2024",
+        "nodes": 7430,
+        "edges": 36451
+    },
+    {
+        "source": "LINCS L1000 Chem Pert",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/l1000chempert.new_archive.zip",
+        "size": "45.41MB",
+        "updated": "07-01-2024",
+        "nodes": 36039,
+        "edges": 5086167
+    },
+    {
+        "source": "LINCS L1000 CRISPR",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/l1000crispr.new_archive.zip",
+        "size": "10.42MB",
+        "updated": "07-01-2024",
+        "nodes": 14600,
+        "edges": 2524500
+    },
+    {
+        "source": "LINCS CMAP Chemical",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/lincscmapchemical.new_archive.zip",
+        "size": "20.20MB",
+        "updated": "07-01-2024",
+        "nodes": 39375,
+        "edges": 4189677
+    },
+    {
+        "source": "LOCATE Curated Protein",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/locate.new_archive.zip",
+        "size": "344.33KB",
+        "updated": "07-01-2024",
+        "nodes": 9717,
+        "edges": 79181
+    },
+    {
+        "source": "LOCATE Predicted Protein",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/locatepredicted.new_archive.zip",
+        "size": "705.33KB",
+        "updated": "07-01-2024",
+        "nodes": 19771,
+        "edges": 154700
+    },
+    {
+        "source": "MGI MPO",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mgimpo.new_archive.zip",
+        "size": "1.92MB",
+        "updated": "07-01-2024",
+        "nodes": 16377,
+        "edges": 466673
+    },
+    {
+        "source": "MGI Phenotype",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mgiphenotype.new_archive.zip",
+        "size": "1.20MB",
+        "updated": "07-01-2024",
+        "nodes": 23128,
+        "edges": 252920
+    },
+    {
+        "source": "MiRTarBase",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mirtarbase.new_archive.zip",
+        "size": "233.68KB",
+        "updated": "07-01-2024",
+        "nodes": 12682,
+        "edges": 37415
+    },
+    {
+        "source": "MotifMap",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/motifmap.new_archive.zip",
+        "size": "782.51KB",
+        "updated": "07-01-2024",
+        "nodes": 20763,
+        "edges": 158860
+    },
+    {
+        "source": "MoTrPAC",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/motrpac.new_archive.zip",
+        "size": "633.32KB",
+        "updated": "07-01-2024",
+        "nodes": 12568,
+        "edges": 95052
+    },
+    {
+        "source": "MSigDB Comp Signatures",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/msigdbcomp.new_archive.zip",
+        "size": "204.85KB",
+        "updated": "07-01-2024",
+        "nodes": 5225,
+        "edges": 41327
+    },
+    {
+        "source": "MSigDB Oncogenic Signatures",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/msigdbonc.new_archive.zip",
+        "size": "209.69KB",
+        "updated": "07-01-2024",
+        "nodes": 10855,
+        "edges": 29967
+    },
+    {
+        "source": "MW Metabolites",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mwmetabolites.new_archive.zip",
+        "size": "34.19KB",
+        "updated": "07-01-2024",
+        "nodes": 1799,
+        "edges": 5042
+    },
+    {
+        "source": "OMIM",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/omim.new_archive.zip",
+        "size": "162.73KB",
+        "updated": "07-01-2024",
+        "nodes": 10093,
+        "edges": 6666
+    },
+    {
+        "source": "PANTHER",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/panther.new_archive.zip",
+        "size": "35.60KB",
+        "updated": "07-01-2024",
+        "nodes": 2107,
+        "edges": 4255
+    },
+    {
+        "source": "Pathway Commons",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pc.new_archive.zip",
+        "size": "13.39MB",
+        "updated": "07-01-2024",
+        "nodes": 31494,
+        "edges": 3527164
+    },
+    {
+        "source": "WikiPathways PFOCR",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pfocr.new_archive.zip",
+        "size": "2.82MB",
+        "updated": "07-01-2024",
+        "nodes": 48637,
+        "edges": 307416
+    },
+    {
+        "source": "PhosphoSitePlus Kinase",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositeplus.new_archive.zip",
+        "size": "46.46KB",
+        "updated": "07-01-2024",
+        "nodes": 2806,
+        "edges": 6013
+    },
+    {
+        "source": "PhosphoSitePlus Disease",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositeplusdisease.new_archive.zip",
+        "size": "6.75KB",
+        "updated": "07-01-2024",
+        "nodes": 352,
+        "edges": 356
+    },
+    {
+        "source": "Phosphosite Textmining",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositetextmining.new_archive.zip",
+        "size": "686.68KB",
+        "updated": "07-01-2024",
+        "nodes": 3738,
+        "edges": 159580
+    },
+    {
+        "source": "PID Pathways",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pid.new_archive.zip",
+        "size": "52.39KB",
+        "updated": "07-01-2024",
+        "nodes": 2733,
+        "edges": 8027
+    },
+    {
+        "source": "Proteomics DB",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/proteomicsdb.new_archive.zip",
+        "size": "205.16KB",
+        "updated": "07-01-2024",
+        "nodes": 2829,
+        "edges": 21921
+    },
+    {
+        "source": "Reactome",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/reactome.new_archive.zip",
+        "size": "462.14KB",
+        "updated": "07-01-2024",
+        "nodes": 9173,
+        "edges": 83680
+    },
+    {
+        "source": "Sanger Dep Map",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/sangerdepmap.new_archive.zip",
+        "size": "909.41KB",
+        "updated": "07-01-2024",
+        "nodes": 9179,
+        "edges": 189800
+    },
+    {
+        "source": "SILAC Drug Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacdrug.new_archive.zip",
+        "size": "47.29KB",
+        "updated": "07-01-2024",
+        "nodes": 2793,
+        "edges": 5808
+    },
+    {
+        "source": "SILAC Gene Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacgene.new_archive.zip",
+        "size": "6.54KB",
+        "updated": "07-01-2024",
+        "nodes": 213,
+        "edges": 840
+    },
+    {
+        "source": "SILAC Ligand Perturbation",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacligand.new_archive.zip",
+        "size": "38.45KB",
+        "updated": "07-01-2024",
+        "nodes": 2031,
+        "edges": 5439
+    },
+    {
+        "source": "Tabula Sapiens",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/tabulasapiens.new_archive.zip",
+        "size": "329.50KB",
+        "updated": "07-01-2024",
+        "nodes": 8653,
+        "edges": 46900
+    },
+    {
+        "source": "TargetScan Conserved",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/targetscan.new_archive.zip",
+        "size": "3.18MB",
+        "updated": "07-01-2024",
+        "nodes": 16460,
+        "edges": 513997
+    },
+    {
+        "source": "TargetScan Nonconserved",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/targetscannonconserved.new_archive.zip",
+        "size": "3.35MB",
+        "updated": "07-01-2024",
+        "nodes": 19587,
+        "edges": 627985
+    },
+    {
+        "source": "TCGA",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/tcga.new_archive.zip",
+        "size": "18.86MB",
+        "updated": "07-01-2024",
+        "nodes": 25698,
+        "edges": 4367061
+    },
+    {
+        "source": "VirusMINT Virus",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/virusmint.new_archive.zip",
+        "size": "11.34KB",
+        "updated": "07-01-2024",
+        "nodes": 774,
+        "edges": 1036
+    },
+    {
+        "source": "VirusMINT Viral Protein",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/virusmintppi.new_archive.zip",
+        "size": "11.89KB",
+        "updated": "07-01-2024",
+        "nodes": 891,
+        "edges": 1140
+    },
+    {
+        "source": "WikiPathways Pathways",
+        "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/wikipathways.new_archive.zip",
+        "size": "132.56KB",
+        "updated": "07-01-2024",
+        "nodes": 6520,
+        "edges": 22242
+    }
+]

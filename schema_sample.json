@@ -35,14 +35,14 @@
             ]
         },
         {
-            "node": "ENCODETFBind",
+            "node": "ENCODE Histone Modification",
             "example": [
-                "ARID3A_HepG2_hg19_1",
-                "ARID3A_K562_hg19_1"
+                "H3K27ac_A549_hg19_1",
+                "H3K27ac_A549_hg19_2"
             ],
             "display": [
                 {
-                    "label": "ENCODETFBind ID",
+                    "label": "ENCODE Histone Modification ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -69,14 +69,14 @@
             ]
         },
         {
-            "node": "CMAP",
+            "node": "Sanger Dep Map",
             "example": [
-                "1,4-chrysenequinone-1773",
-                "1,4-chrysenequinone-7139"
+                "201T",
+                "22RV1"
             ],
             "display": [
                 {
-                    "label": "CMAP ID",
+                    "label": "Sanger Dep Map ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -103,14 +103,14 @@
             ]
         },
         {
-            "node": "WikiPathwaysPFOCR",
+            "node": "HuBMAP Azimuth Cell Type",
             "example": [
-                "Formation of TrkA-src-aPKC complexes",
-                "Up-regulation of RAD51 in 8-MOP-treated cells"
+                "Human - PBMC - L1 - Monocyte",
+                "Human - PBMC - L1 - CD4+ T cell"
             ],
             "display": [
                 {
-                    "label": "WikiPathwaysPFOCR ID",
+                    "label": "HuBMAP Azimuth Cell Type ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -171,6 +171,142 @@
             ]
         },
         {
+            "node": "PID Pathways",
+            "example": [
+                "TCR signaling in na&#xef;ve CD4+ T cells",
+                "TCR signaling in na&#xef;ve CD8+ T cells"
+            ],
+            "display": [
+                {
+                    "label": "PID Pathways ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "GAD High Level",
+            "example": [
+                "cardiovascular",
+                "metabolic"
+            ],
+            "display": [
+                {
+                    "label": "GAD High Level ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "CCLE Mutations",
+            "example": [
+                "haematopoietic_and_lymphoid_tissue",
+                "haematopoietic_and_lymphoid_tissue"
+            ],
+            "display": [
+                {
+                    "label": "CCLE Mutations ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "GTEx Tissue Sample",
+            "example": [
+                "GTEX-S341-0006-SM-3NM8D",
+                "GTEX-WH7G-0005-SM-3NMBX"
+            ],
+            "display": [
+                {
+                    "label": "GTEx Tissue Sample ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
             "node": "HPO",
             "example": [
                 "severe t lymphocytopenia",
@@ -205,218 +341,14 @@
             ]
         },
         {
-            "node": "CTDChemical",
+            "node": "LINCS KiNativ",
             "example": [
-                "15R-methyl prostaglandin D2",
-                "5-hydroxyindomethacin"
+                "DCC-2036_Ramos (RA 1)",
+                "NVP-BHG712_PC-3"
             ],
             "display": [
                 {
-                    "label": "CTDChemical ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "ProteomicsDB",
-            "example": [
-                "SW-480 cell",
-                "SW-620 cell"
-            ],
-            "display": [
-                {
-                    "label": "ProteomicsDB ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "DepMapGeneDep",
-            "example": [
-                "MYLA",
-                "HUPT4"
-            ],
-            "display": [
-                {
-                    "label": "DepMapGeneDep ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "LOCATECuratedProtein",
-            "example": [
-                "membrane part",
-                "plasma membrane region"
-            ],
-            "display": [
-                {
-                    "label": "LOCATECuratedProtein ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "CCLEMut",
-            "example": [
-                "haematopoietic_and_lymphoid_tissue",
-                "haematopoietic_and_lymphoid_tissue"
-            ],
-            "display": [
-                {
-                    "label": "CCLEMut ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "EpigenomicsmRNA",
-            "example": [
-                "CD4_Naive_Primary_Cells",
-                "CD8_Naive_Primary_Cells"
-            ],
-            "display": [
-                {
-                    "label": "EpigenomicsmRNA ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "BioGPSHuman",
-            "example": [
-                "pineal_day",
-                "pineal_night"
-            ],
-            "display": [
-                {
-                    "label": "BioGPSHuman ID",
+                    "label": "LINCS KiNativ ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -477,6 +409,40 @@
             ]
         },
         {
+            "node": "GWASdb Phenotype",
+            "example": [
+                "abnormality of cellular immune system",
+                "abnormality of leukocytes"
+            ],
+            "display": [
+                {
+                    "label": "GWASdb Phenotype ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
             "node": "GeneSigDB",
             "example": [
                 "Human Bladder_Kassem02_20genes_RadioSensitiveVsResistant",
@@ -485,6 +451,40 @@
             "display": [
                 {
                     "label": "GeneSigDB ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "MSigDB Comp Signatures",
+            "example": [
+                "ANK1",
+                "SPTB"
+            ],
+            "display": [
+                {
+                    "label": "MSigDB Comp Signatures ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -545,14 +545,14 @@
             ]
         },
         {
-            "node": "L1000CRISPR",
+            "node": "GEO Chem Perturbation",
             "example": [
-                "A1BG",
-                "A1CF"
+                "fluoxetine_mus musculus_gpl1261 _gds2803",
+                "fluoxetine_mus musculus_gpl1261_gds2803"
             ],
             "display": [
                 {
-                    "label": "L1000CRISPR ID",
+                    "label": "GEO Chem Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -579,14 +579,14 @@
             ]
         },
         {
-            "node": "JensenTissuesCurated",
+            "node": "TISSUES Expts",
             "example": [
-                "breast epithelium",
-                "mammary epithelium"
+                "fetus",
+                "placenta"
             ],
             "display": [
                 {
-                    "label": "JensenTissuesCurated ID",
+                    "label": "TISSUES Expts ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -613,14 +613,14 @@
             ]
         },
         {
-            "node": "EpigenomicsHM",
+            "node": "CCLE Proteomics",
             "example": [
-                "H3K4me3_H1",
-                "H3K4me3_H9"
+                "SNU1_STOMACH",
+                "BT549_BREAST"
             ],
             "display": [
                 {
-                    "label": "EpigenomicsHM ID",
+                    "label": "CCLE Proteomics ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -681,14 +681,14 @@
             ]
         },
         {
-            "node": "TargetScanConserved",
+            "node": "Klijn Mutations",
             "example": [
-                "hsa-let-7g",
-                "hsa-miR-4458"
+                "stomach",
+                "stomach"
             ],
             "display": [
                 {
-                    "label": "TargetScanConserved ID",
+                    "label": "Klijn Mutations ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -715,14 +715,14 @@
             ]
         },
         {
-            "node": "MWMetabolites",
+            "node": "Pathway Commons",
             "example": [
-                "Coenzyme A",
-                "Acetyl-CoA"
+                "RETSAT",
+                "C1orf131"
             ],
             "display": [
                 {
-                    "label": "MWMetabolites ID",
+                    "label": "Pathway Commons ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -749,14 +749,14 @@
             ]
         },
         {
-            "node": "GEOKinasePerturbations",
+            "node": "TargetScan Nonconserved",
             "example": [
-                "LRRK2_activemutant_159_GSE36321",
-                "LRRK2_mutant_33_GDS4401"
+                "hsa-miR-520b",
+                "hsa-miR-520c-3p"
             ],
             "display": [
                 {
-                    "label": "GEOKinasePerturbations ID",
+                    "label": "TargetScan Nonconserved ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -783,14 +783,48 @@
             ]
         },
         {
-            "node": "GEOVirusPerturbation",
+            "node": "ChEA TF Targets",
             "example": [
-                "HCMV_24Hour-Infection+PP2_21084488_GSE24238",
-                "HCMV_24Hour-Infection_only_21084488_GSE24238"
+                "KLF2",
+                "KLF5"
             ],
             "display": [
                 {
-                    "label": "GEOVirusPerturbation ID",
+                    "label": "ChEA TF Targets ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "DISEASES Text Mining",
+            "example": [
+                "integumentary system cancer",
+                "skin cancer"
+            ],
+            "display": [
+                {
+                    "label": "DISEASES Text Mining ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -851,48 +885,14 @@
             ]
         },
         {
-            "node": "HPATissuesProtein",
-            "example": [
-                "duodenum",
-                "small intestine"
-            ],
-            "display": [
-                {
-                    "label": "HPATissuesProtein ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "VirusMINT",
+            "node": "VirusMINT Virus",
             "example": [
                 "Vaccinia virus",
                 "Hepatitis E virus (strain Burma)"
             ],
             "display": [
                 {
-                    "label": "VirusMINT ID",
+                    "label": "VirusMINT Virus ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -919,14 +919,14 @@
             ]
         },
         {
-            "node": "IMPCKnockout",
+            "node": "GEO Virus Perturbation",
             "example": [
-                "increased fasting circulating glucose level",
-                "increased circulating alkaline phosphatase level"
+                "HCMV_24Hour-Infection+PP2_21084488_GSE24238",
+                "HCMV_24Hour-Infection_only_21084488_GSE24238"
             ],
             "display": [
                 {
-                    "label": "IMPCKnockout ID",
+                    "label": "GEO Virus Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -953,14 +953,48 @@
             ]
         },
         {
-            "node": "COSMICCNV",
+            "node": "ABA Prenatal Human",
+            "example": [
+                "VZ in primary visual cortex",
+                "VZ in ventromedial extrastriate cortex (VP)"
+            ],
+            "display": [
+                {
+                    "label": "ABA Prenatal Human ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "COSMIC CNV",
             "example": [
                 "NCI-H1417",
                 "23132-87"
             ],
             "display": [
                 {
-                    "label": "COSMICCNV ID",
+                    "label": "COSMIC CNV ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -987,14 +1021,14 @@
             ]
         },
         {
-            "node": "GAD",
+            "node": "ABA Adult Human",
             "example": [
-                "eating behavior disinhibition",
-                "phenylthiocarbamide sensitivity"
+                "VIIB, left, lateral hemisphere",
+                "VIIIA, left, lateral hemisphere"
             ],
             "display": [
                 {
-                    "label": "GAD ID",
+                    "label": "ABA Adult Human ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1021,14 +1055,14 @@
             ]
         },
         {
-            "node": "JensenCompartmentTextMining",
+            "node": "ABA Developmental Human Microarray",
             "example": [
-                "nuclear viral factory",
-                "replication compartment"
+                "dorsolateral prefrontal cortex_8 pcw_M_13058",
+                "anterior (rostral) cingulate (medial prefrontal) cortex_8 pcw_M_13058"
             ],
             "display": [
                 {
-                    "label": "JensenCompartmentTextMining ID",
+                    "label": "ABA Developmental Human Microarray ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1055,14 +1089,14 @@
             ]
         },
         {
-            "node": "KinomeScan",
+            "node": "ChEA Binding Site 2022",
             "example": [
-                "5z-7-oxozeaenol",
-                "CG-930"
+                "BP1-19119308-HS578T-HUMAN",
+                "FOXP1-22492998-STRATIUM-MOUSE"
             ],
             "display": [
                 {
-                    "label": "KinomeScan ID",
+                    "label": "ChEA Binding Site 2022 ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1089,14 +1123,14 @@
             ]
         },
         {
-            "node": "GEOGenePerturbations",
+            "node": "Klijn CNV",
             "example": [
-                "NIX_Deficiency_GDS2630_160_mouse_spleen",
-                "NIX_Deficiency_GDS2630_655_mouse_Spleen"
+                "lung",
+                "kidney"
             ],
             "display": [
                 {
-                    "label": "GEOGenePerturbations ID",
+                    "label": "Klijn CNV ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1123,14 +1157,14 @@
             ]
         },
         {
-            "node": "GTExTissue23",
+            "node": "CCLE CNV",
             "example": [
-                "Adipose - Subcutaneous",
-                "Adipose - Visceral (Omentum)"
+                "haematopoietic and lymphoid tissue",
+                "kidney"
             ],
             "display": [
                 {
-                    "label": "GTExTissue23 ID",
+                    "label": "CCLE CNV ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1157,14 +1191,14 @@
             ]
         },
         {
-            "node": "MPO",
+            "node": "BioGPS NCI-60",
             "example": [
-                "abnormal vagal neural crest cell morphology",
-                "absent vagal neural crest cells"
+                "U118",
+                "U87"
             ],
             "display": [
                 {
-                    "label": "MPO ID",
+                    "label": "BioGPS NCI-60 ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1191,14 +1225,14 @@
             ]
         },
         {
-            "node": "GWASdbDisease",
+            "node": "JASPAR PWMs",
             "example": [
-                "integumentary system cancer",
-                "skin cancer"
+                "REST",
+                "RREB1"
             ],
             "display": [
                 {
-                    "label": "GWASdbDisease ID",
+                    "label": "JASPAR PWMs ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1259,14 +1293,14 @@
             ]
         },
         {
-            "node": "AllenBrainAtlasDevelopmentalHumanMicroarray",
+            "node": "HuGE Navigator",
             "example": [
-                "dorsolateral prefrontal cortex_8 pcw_M_13058",
-                "anterior (rostral) cingulate (medial prefrontal) cortex_8 pcw_M_13058"
+                "Prostatic Diseases",
+                "Psychosexual Development"
             ],
             "display": [
                 {
-                    "label": "AllenBrainAtlasDevelopmentalHumanMicroarray ID",
+                    "label": "HuGE Navigator ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1293,14 +1327,14 @@
             ]
         },
         {
-            "node": "CCLECNV",
+            "node": "LINCS L1000 CRISPR",
             "example": [
-                "haematopoietic and lymphoid tissue",
-                "kidney"
+                "A1BG",
+                "A1CF"
             ],
             "display": [
                 {
-                    "label": "CCLECNV ID",
+                    "label": "LINCS L1000 CRISPR ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1327,14 +1361,14 @@
             ]
         },
         {
-            "node": "SILACDrugPert",
+            "node": "WikiPathways Pathways",
             "example": [
-                "HS+LS_30min_LPS vs ctrl_RAW264.7_macrophage (Mouse) [20222745]",
-                "HS+LS_90min_LPS vs ctrl_RAW264.7_macrophage (Mouse) [20222745]"
+                "Mitochondrial LC-Fatty Acid Beta-Oxidation(Homo sapiens)",
+                "Mitochondrial LC-Fatty Acid Beta-Oxidation(Mus musculus)"
             ],
             "display": [
                 {
-                    "label": "SILACDrugPert ID",
+                    "label": "WikiPathways Pathways ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1361,48 +1395,14 @@
             ]
         },
         {
-            "node": "GTExTissueSample",
+            "node": "PhosphoSitePlus Disease",
             "example": [
-                "GTEX-S341-0006-SM-3NM8D",
-                "GTEX-WH7G-0005-SM-3NMBX"
+                "SLE",
+                "lung cancer"
             ],
             "display": [
                 {
-                    "label": "GTExTissueSample ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "PhosphositeTextmining",
-            "example": [
-                "proto-oncogene-proteins",
-                "akt"
-            ],
-            "display": [
-                {
-                    "label": "PhosphositeTextmining ID",
+                    "label": "PhosphoSitePlus Disease ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1497,14 +1497,14 @@
             ]
         },
         {
-            "node": "JensenCompartmentEXPTS",
+            "node": "WikiPathways PFOCR",
             "example": [
-                "intracellular part",
-                "intracellular"
+                "Formation of TrkA-src-aPKC complexes",
+                "Up-regulation of RAD51 in 8-MOP-treated cells"
             ],
             "display": [
                 {
-                    "label": "JensenCompartmentEXPTS ID",
+                    "label": "WikiPathways PFOCR ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1531,14 +1531,14 @@
             ]
         },
         {
-            "node": "EpigenomicsDNAMethylation",
+            "node": "ABA Adult Mouse",
             "example": [
-                "Primary B cells from cord blood",
-                "Primary hematopoietic stem cells"
+                "Field CA1, stratum radiatum",
+                "Field CA1"
             ],
             "display": [
                 {
-                    "label": "EpigenomicsDNAMethylation ID",
+                    "label": "ABA Adult Mouse ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1565,14 +1565,14 @@
             ]
         },
         {
-            "node": "HuGENavigator",
+            "node": "GTEx Aging Signatures",
             "example": [
-                "Prostatic Diseases",
-                "Psychosexual Development"
+                "GTEx Uterus 20-29 vs 40-49",
+                "GTEx Thyroid 20-29 vs 40-49"
             ],
             "display": [
                 {
-                    "label": "HuGENavigator ID",
+                    "label": "GTEx Aging Signatures ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1599,14 +1599,14 @@
             ]
         },
         {
-            "node": "ENCODEHM",
+            "node": "COSMIC Mutations",
             "example": [
-                "H3K27ac_A549_hg19_1",
-                "H3K27ac_A549_hg19_2"
+                "NCI-H2052",
+                "LB1047-RCC"
             ],
             "display": [
                 {
-                    "label": "ENCODEHM ID",
+                    "label": "COSMIC Mutations ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1633,82 +1633,14 @@
             ]
         },
         {
-            "node": "GOMF23",
+            "node": "CCLE Gene Expression",
             "example": [
-                "aromatase activity",
-                "MHC protein binding"
+                "CHL1",
+                "HMCB"
             ],
             "display": [
                 {
-                    "label": "GOMF23 ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GWASCatalog",
-            "example": [
-                "Asthma (toluene diisocyanate-induced)",
-                "Schizophrenia (cytomegalovirus infection interaction)"
-            ],
-            "display": [
-                {
-                    "label": "GWASCatalog ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "CTDDisease",
-            "example": [
-                "Histiocytosis with joint contractures and sensorineural deafness",
-                "Histiocytosis, Sinus"
-            ],
-            "display": [
-                {
-                    "label": "CTDDisease ID",
+                    "label": "CCLE Gene Expression ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1769,14 +1701,14 @@
             ]
         },
         {
-            "node": "KlijnCNV",
+            "node": "SILAC Drug Perturbation",
             "example": [
-                "lung",
-                "kidney"
+                "HS+LS_30min_LPS vs ctrl_RAW264.7_macrophage (Mouse) [20222745]",
+                "HS+LS_90min_LPS vs ctrl_RAW264.7_macrophage (Mouse) [20222745]"
             ],
             "display": [
                 {
-                    "label": "KlijnCNV ID",
+                    "label": "SILAC Drug Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1803,14 +1735,150 @@
             ]
         },
         {
-            "node": "GEODisease",
+            "node": "ABA Developmental Human RNA Seq",
             "example": [
-                "Eczema_Integument_GSE6012",
-                "Psoriasis vulgaris_Skin tissue_GSE6710"
+                "primary visual cortex (striate cortex, area V1/17)_26 pcw_F_12949",
+                "primary visual cortex (striate cortex, area V1/17)_3 yrs_M_12980"
             ],
             "display": [
                 {
-                    "label": "GEODisease ID",
+                    "label": "ABA Developmental Human RNA Seq ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "ENCODE TF Binding Site",
+            "example": [
+                "ARID3A_HepG2_hg19_1",
+                "ARID3A_K562_hg19_1"
+            ],
+            "display": [
+                {
+                    "label": "ENCODE TF Binding Site ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "ENCODE TF Targets",
+            "example": [
+                "ARID3A",
+                "ATF1"
+            ],
+            "display": [
+                {
+                    "label": "ENCODE TF Targets ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "LINCS KinomeScan",
+            "example": [
+                "5z-7-oxozeaenol",
+                "CG-930"
+            ],
+            "display": [
+                {
+                    "label": "LINCS KinomeScan ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "Guide To Pharm Protein",
+            "example": [
+                "C3",
+                "ADM2"
+            ],
+            "display": [
+                {
+                    "label": "Guide To Pharm Protein ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1871,14 +1939,14 @@
             ]
         },
         {
-            "node": "SILACGenePert",
+            "node": "PhosphoSitePlus Kinase",
             "example": [
-                "0min_cross-link_ZAP-70_null vs reconstituted_Jurkat (Human) [19605366]",
-                "2min_cross-link_ZAP-70_null vs reconstituted_Jurkat (Human) [19605366]"
+                "STK17A",
+                "TP53RK"
             ],
             "display": [
                 {
-                    "label": "SILACGenePert ID",
+                    "label": "PhosphoSitePlus Kinase ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1905,14 +1973,14 @@
             ]
         },
         {
-            "node": "PhosphoSitePlusDisease",
+            "node": "Roadmap Epigenomics Histone Modification",
             "example": [
-                "SLE",
-                "lung cancer"
+                "H3K4me3_H1",
+                "H3K4me3_H9"
             ],
             "display": [
                 {
-                    "label": "PhosphoSitePlusDisease ID",
+                    "label": "Roadmap Epigenomics Histone Modification ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1939,14 +2007,14 @@
             ]
         },
         {
-            "node": "JensenDiseaseEXPTS",
+            "node": "Hub Proteins",
             "example": [
-                "lymphoid leukemia",
-                "lymphoblastic leukemia"
+                "LRIF1",
+                "RIF1"
             ],
             "display": [
                 {
-                    "label": "JensenDiseaseEXPTS ID",
+                    "label": "Hub Proteins ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -1973,14 +2041,48 @@
             ]
         },
         {
-            "node": "COSMICMut",
+            "node": "Tabula Sapiens",
             "example": [
-                "NCI-H2052",
-                "LB1047-RCC"
+                "Bladder-b cell",
+                "Bladder-bladder urothelial cell"
             ],
             "display": [
                 {
-                    "label": "COSMICMut ID",
+                    "label": "Tabula Sapiens ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "GEO Disease Perturbation",
+            "example": [
+                "Eczema_Integument_GSE6012",
+                "Psoriasis vulgaris_Skin tissue_GSE6710"
+            ],
+            "display": [
+                {
+                    "label": "GEO Disease Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2041,14 +2143,14 @@
             ]
         },
         {
-            "node": "CCLEProteomics",
+            "node": "VirusMINT Viral Protein",
             "example": [
-                "SNU1_STOMACH",
-                "BT549_BREAST"
+                "P03496",
+                "A1Z0Q5"
             ],
             "display": [
                 {
-                    "label": "CCLEProteomics ID",
+                    "label": "VirusMINT Viral Protein ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2075,14 +2177,48 @@
             ]
         },
         {
-            "node": "BioGPSMouse",
+            "node": "CTD Chemical",
             "example": [
-                "fertilizedegg",
-                "oocyte"
+                "15R-methyl prostaglandin D2",
+                "5-hydroxyindomethacin"
             ],
             "display": [
                 {
-                    "label": "BioGPSMouse ID",
+                    "label": "CTD Chemical ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "Roadmap Epigenomics DNA Methylation",
+            "example": [
+                "Primary B cells from cord blood",
+                "Primary hematopoietic stem cells"
+            ],
+            "display": [
+                {
+                    "label": "Roadmap Epigenomics DNA Methylation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2143,6 +2279,74 @@
             ]
         },
         {
+            "node": "GTEx Tissue 2023",
+            "example": [
+                "Adipose - Subcutaneous",
+                "Adipose - Visceral (Omentum)"
+            ],
+            "display": [
+                {
+                    "label": "GTEx Tissue 2023 ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "MSigDB Oncogenic Signatures",
+            "example": [
+                "KRAS.300_UP.V1",
+                "KRAS.600_UP.V1"
+            ],
+            "display": [
+                {
+                    "label": "MSigDB Oncogenic Signatures ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
             "node": "CORUM",
             "example": [
                 "20S methyltransferase complex",
@@ -2177,14 +2381,14 @@
             ]
         },
         {
-            "node": "PhosphoSitePlusKinase",
+            "node": "Phosphosite Textmining",
             "example": [
-                "STK17A",
-                "TP53RK"
+                "proto-oncogene-proteins",
+                "akt"
             ],
             "display": [
                 {
-                    "label": "PhosphoSitePlusKinase ID",
+                    "label": "Phosphosite Textmining ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2211,14 +2415,116 @@
             ]
         },
         {
-            "node": "HPATissueSamples",
+            "node": "Guide To Pharm Chem",
             "example": [
-                "testis_7e",
-                "testis_7d"
+                "&beta;-scorpion toxin Cn2",
+                "4 9-anhydro-tetrodotoxin"
             ],
             "display": [
                 {
-                    "label": "HPATissueSamples ID",
+                    "label": "Guide To Pharm Chem ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "IMPC Knockout",
+            "example": [
+                "increased fasting circulating glucose level",
+                "increased circulating alkaline phosphatase level"
+            ],
+            "display": [
+                {
+                    "label": "IMPC Knockout ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "GO Bio Process 2023",
+            "example": [
+                "defense response to Gram-positive bacterium",
+                "meiotic sister chromatid cohesion involved in meiosis I"
+            ],
+            "display": [
+                {
+                    "label": "GO Bio Process 2023 ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "TISSUES Curated",
+            "example": [
+                "breast epithelium",
+                "mammary epithelium"
+            ],
+            "display": [
+                {
+                    "label": "TISSUES Curated ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2247,80 +2553,12 @@
         {
             "node": "Achilles",
             "example": [
-                "haematopoietic and lymphoid tissue",
-                "haematopoietic and lymphoid tissue"
+                "HL60",
+                "PLB985"
             ],
             "display": [
                 {
                     "label": "Achilles ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "MGIPhenotype",
-            "example": [
-                "liver hypoplasia",
-                "abnormal placenta labyrinth morphology"
-            ],
-            "display": [
-                {
-                    "label": "MGIPhenotype ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GWASdbPhenotype",
-            "example": [
-                "abnormality of cellular immune system",
-                "abnormality of leukocytes"
-            ],
-            "display": [
-                {
-                    "label": "GWASdbPhenotype ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2381,14 +2619,14 @@
             ]
         },
         {
-            "node": "AllenBrainAtlasAdultHuman",
+            "node": "DISEASES Curated",
             "example": [
-                "VIIB, left, lateral hemisphere",
-                "VIIIA, left, lateral hemisphere"
+                "hemangioblastoma",
+                "von hippel-lindau disease"
             ],
             "display": [
                 {
-                    "label": "AllenBrainAtlasAdultHuman ID",
+                    "label": "DISEASES Curated ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2415,48 +2653,14 @@
             ]
         },
         {
-            "node": "HPATissuesmRNA",
+            "node": "GEO Kinase Perturbation",
             "example": [
-                "lymph node",
-                "tonsil"
+                "LRRK2_activemutant_159_GSE36321",
+                "LRRK2_mutant_33_GDS4401"
             ],
             "display": [
                 {
-                    "label": "HPATissuesmRNA ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "JASPAR",
-            "example": [
-                "REST",
-                "RREB1"
-            ],
-            "display": [
-                {
-                    "label": "JASPAR ID",
+                    "label": "GEO Kinase Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2517,48 +2721,14 @@
             ]
         },
         {
-            "node": "VirusMINTProtein",
-            "example": [
-                "P03496",
-                "A1Z0Q5"
-            ],
-            "display": [
-                {
-                    "label": "VirusMINTProtein ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "MirTarBase",
+            "node": "MiRTarBase",
             "example": [
                 "ebv-miR-BART6-5p",
                 "hsa-miR-154-5p"
             ],
             "display": [
                 {
-                    "label": "MirTarBase ID",
+                    "label": "MiRTarBase ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2585,116 +2755,14 @@
             ]
         },
         {
-            "node": "ChEABindingSite",
-            "example": [
-                "BP1-19119308-HS578T-HUMAN",
-                "FOXP1-22492998-STRATIUM-MOUSE"
-            ],
-            "display": [
-                {
-                    "label": "ChEABindingSite ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "AzimuthCellType",
-            "example": [
-                "Human - PBMC - L1 - Monocyte",
-                "Human - PBMC - L1 - CD4+ T cell"
-            ],
-            "display": [
-                {
-                    "label": "AzimuthCellType ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "SILACLigandPert",
-            "example": [
-                "0min_EGF vs ctrl_HeLa (Human) [17081983]",
-                "10min_EGF vs ctrl_HeLa (Human) [17081983]"
-            ],
-            "display": [
-                {
-                    "label": "SILACLigandPert ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GEOTFPerturbation",
+            "node": "GEO TF Perturbation",
             "example": [
                 "ott1_22490678_hematopoietic_stem_cell_lof_mouse_gpl8321_gds4315",
                 "rbm15_22490678_hematopoietic_stem_cell_lof_mouse_gpl8321_gds4315"
             ],
             "display": [
                 {
-                    "label": "GEOTFPerturbation ID",
+                    "label": "GEO TF Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2721,14 +2789,14 @@
             ]
         },
         {
-            "node": "MSigDBComp",
+            "node": "Proteomics DB",
             "example": [
-                "ANK1",
-                "SPTB"
+                "SW-480 cell",
+                "SW-620 cell"
             ],
             "display": [
                 {
-                    "label": "MSigDBComp ID",
+                    "label": "Proteomics DB ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2755,14 +2823,116 @@
             ]
         },
         {
-            "node": "AllenBrainAtlasDevelopmentalHumanRNASeq",
+            "node": "HPA Cell Lines",
             "example": [
-                "primary visual cortex (striate cortex, area V1/17)_26 pcw_F_12949",
-                "primary visual cortex (striate cortex, area V1/17)_3 yrs_M_12980"
+                "daudi",
+                "u698"
             ],
             "display": [
                 {
-                    "label": "AllenBrainAtlasDevelopmentalHumanRNASeq ID",
+                    "label": "HPA Cell Lines ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "HPA Tissues mRNA",
+            "example": [
+                "lymph node",
+                "tonsil"
+            ],
+            "display": [
+                {
+                    "label": "HPA Tissues mRNA ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "LINCS CMAP Chemical",
+            "example": [
+                "BRD-A00267231_HEMADO_A549_24.0_h_10.0_um",
+                "BRD-A00267231_HEMADO_ASC_24.0_h_10.0_um"
+            ],
+            "display": [
+                {
+                    "label": "LINCS CMAP Chemical ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "BioGPS Human",
+            "example": [
+                "pineal_day",
+                "pineal_night"
+            ],
+            "display": [
+                {
+                    "label": "BioGPS Human ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2823,14 +2993,184 @@
             ]
         },
         {
-            "node": "AllenBrainAtlasPrenatalHuman",
+            "node": "HPA Tissue Samples",
             "example": [
-                "VZ in primary visual cortex",
-                "VZ in ventromedial extrastriate cortex (VP)"
+                "testis_7e",
+                "testis_7d"
             ],
             "display": [
                 {
-                    "label": "AllenBrainAtlasPrenatalHuman ID",
+                    "label": "HPA Tissue Samples ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "HPA Tissue Protein",
+            "example": [
+                "duodenum",
+                "small intestine"
+            ],
+            "display": [
+                {
+                    "label": "HPA Tissue Protein ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "TISSUES TextMining",
+            "example": [
+                "er-1 cell",
+                "erpp cell"
+            ],
+            "display": [
+                {
+                    "label": "TISSUES TextMining ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "MW Metabolites",
+            "example": [
+                "Coenzyme A",
+                "Acetyl-CoA"
+            ],
+            "display": [
+                {
+                    "label": "MW Metabolites ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "LOCATE Curated Protein",
+            "example": [
+                "membrane part",
+                "plasma membrane region"
+            ],
+            "display": [
+                {
+                    "label": "LOCATE Curated Protein ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "LINCS L1000 Chem Pert",
+            "example": [
+                "BRD-K02519835",
+                "CI-1040"
+            ],
+            "display": [
+                {
+                    "label": "LINCS L1000 Chem Pert ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -2891,150 +3231,14 @@
             ]
         },
         {
-            "node": "GuideToPharmProtein",
-            "example": [
-                "C3",
-                "ADM2"
-            ],
-            "display": [
-                {
-                    "label": "GuideToPharmProtein ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "TargetScanNonconserved",
-            "example": [
-                "hsa-miR-520b",
-                "hsa-miR-520c-3p"
-            ],
-            "display": [
-                {
-                    "label": "TargetScanNonconserved ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "LOCATEPredictedProtein",
-            "example": [
-                "intracellular membrane-bounded organelle",
-                "membrane-bounded organelle"
-            ],
-            "display": [
-                {
-                    "label": "LOCATEPredictedProtein ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "PathwayCommons",
-            "example": [
-                "RETSAT",
-                "C1orf131"
-            ],
-            "display": [
-                {
-                    "label": "PathwayCommons ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "HumanCYCPathways",
+            "node": "HumanCYC Pathways",
             "example": [
                 "urea cycle",
                 "citrulline-nitric oxide cycle"
             ],
             "display": [
                 {
-                    "label": "HumanCYCPathways ID",
+                    "label": "HumanCYC Pathways ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3061,14 +3265,14 @@
             ]
         },
         {
-            "node": "PID",
+            "node": "Kinase Library",
             "example": [
-                "TCR signaling in na&#xef;ve CD4+ T cells",
-                "TCR signaling in na&#xef;ve CD8+ T cells"
+                "AAK1",
+                "ACVR2A"
             ],
             "display": [
                 {
-                    "label": "PID ID",
+                    "label": "Kinase Library ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3095,14 +3299,184 @@
             ]
         },
         {
-            "node": "GuideToPharmChem",
+            "node": "COMPARTMENTS Curated",
             "example": [
-                "&beta;-scorpion toxin Cn2",
-                "4 9-anhydro-tetrodotoxin"
+                "other organism cell membrane",
+                "host cell synapse"
             ],
             "display": [
                 {
-                    "label": "GuideToPharmChem ID",
+                    "label": "COMPARTMENTS Curated ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "CMAP Small Molecule Perturbations",
+            "example": [
+                "1,4-chrysenequinone-1773",
+                "1,4-chrysenequinone-7139"
+            ],
+            "display": [
+                {
+                    "label": "CMAP Small Molecule Perturbations ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "CTD Disease",
+            "example": [
+                "Histiocytosis with joint contractures and sensorineural deafness",
+                "Histiocytosis, Sinus"
+            ],
+            "display": [
+                {
+                    "label": "CTD Disease ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "DISEASES Expts",
+            "example": [
+                "lymphoid leukemia",
+                "lymphoblastic leukemia"
+            ],
+            "display": [
+                {
+                    "label": "DISEASES Expts ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "SILAC Gene Perturbation",
+            "example": [
+                "0min_cross-link_ZAP-70_null vs reconstituted_Jurkat (Human) [19605366]",
+                "2min_cross-link_ZAP-70_null vs reconstituted_Jurkat (Human) [19605366]"
+            ],
+            "display": [
+                {
+                    "label": "SILAC Gene Perturbation ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "GEO Gene Perturbation",
+            "example": [
+                "NIX_Deficiency_GDS2630_160_mouse_spleen",
+                "NIX_Deficiency_GDS2630_655_mouse_Spleen"
+            ],
+            "display": [
+                {
+                    "label": "GEO Gene Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3163,14 +3537,14 @@
             ]
         },
         {
-            "node": "MoTrPac",
+            "node": "GAD Cell Line",
             "example": [
-                "t99-vena-cava_female_4w",
-                "t69-brown-adipose_male_2w"
+                "eating behavior disinhibition",
+                "phenylthiocarbamide sensitivity"
             ],
             "display": [
                 {
-                    "label": "MoTrPac ID",
+                    "label": "GAD Cell Line ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3197,14 +3571,48 @@
             ]
         },
         {
-            "node": "L1000ChemPert",
+            "node": "DepMap Gene Dependency",
             "example": [
-                "BRD-K02519835",
-                "CI-1040"
+                "MYLA",
+                "HUPT4"
             ],
             "display": [
                 {
-                    "label": "L1000ChemPert ID",
+                    "label": "DepMap Gene Dependency ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "MoTrPAC",
+            "example": [
+                "t99-vena-cava_female_4w",
+                "t69-brown-adipose_male_2w"
+            ],
+            "display": [
+                {
+                    "label": "MoTrPAC ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3265,14 +3673,14 @@
             ]
         },
         {
-            "node": "GADHighLevel",
+            "node": "Roadmap Epigenomics Gene Expression",
             "example": [
-                "cardiovascular",
-                "metabolic"
+                "CD4_Naive_Primary_Cells",
+                "CD8_Naive_Primary_Cells"
             ],
             "display": [
                 {
-                    "label": "GADHighLevel ID",
+                    "label": "Roadmap Epigenomics Gene Expression ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3299,14 +3707,82 @@
             ]
         },
         {
-            "node": "GTExeQTL",
+            "node": "COMPARTMENTS Expts",
             "example": [
-                "chr10:18192888:D",
-                "rs114047680"
+                "intracellular part",
+                "intracellular"
             ],
             "display": [
                 {
-                    "label": "GTExeQTL ID",
+                    "label": "COMPARTMENTS Expts ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "Klijn mRNA",
+            "example": [
+                "YMB-1",
+                "YMB-1-E"
+            ],
+            "display": [
+                {
+                    "label": "Klijn mRNA ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "BioGPS Mouse",
+            "example": [
+                "fertilizedegg",
+                "oocyte"
+            ],
+            "display": [
+                {
+                    "label": "BioGPS Mouse ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3367,14 +3843,14 @@
             ]
         },
         {
-            "node": "ENCODETFTargets",
+            "node": "GWASdb Disease",
             "example": [
-                "ARID3A",
-                "ATF1"
+                "integumentary system cancer",
+                "skin cancer"
             ],
             "display": [
                 {
-                    "label": "ENCODETFTargets ID",
+                    "label": "GWASdb Disease ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3401,14 +3877,14 @@
             ]
         },
         {
-            "node": "JensenTissuesTextMining",
+            "node": "COMPARTMENTS Text Mining",
             "example": [
-                "er-1 cell",
-                "erpp cell"
+                "nuclear viral factory",
+                "replication compartment"
             ],
             "display": [
                 {
-                    "label": "JensenTissuesTextMining ID",
+                    "label": "COMPARTMENTS Text Mining ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3435,14 +3911,14 @@
             ]
         },
         {
-            "node": "LINCSCMAPChemical",
+            "node": "GO Cellular Component 2023",
             "example": [
-                "BRD-A00267231_HEMADO_A549_24.0_h_10.0_um",
-                "BRD-A00267231_HEMADO_ASC_24.0_h_10.0_um"
+                "alpha-beta T cell receptor complex",
+                "condensed chromosome, centromeric region"
             ],
             "display": [
                 {
-                    "label": "LINCSCMAPChemical ID",
+                    "label": "GO Cellular Component 2023 ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3503,14 +3979,14 @@
             ]
         },
         {
-            "node": "GOBP23",
+            "node": "TargetScan Conserved",
             "example": [
-                "defense response to Gram-positive bacterium",
-                "meiotic sister chromatid cohesion involved in meiosis I"
+                "hsa-let-7g",
+                "hsa-miR-4458"
             ],
             "display": [
                 {
-                    "label": "GOBP23 ID",
+                    "label": "TargetScan Conserved ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3537,388 +4013,14 @@
             ]
         },
         {
-            "node": "Kinativ",
+            "node": "GWAS Catalog",
             "example": [
-                "DCC-2036_Ramos (RA 1)",
-                "NVP-BHG712_PC-3"
+                "Asthma (toluene diisocyanate-induced)",
+                "Schizophrenia (cytomegalovirus infection interaction)"
             ],
             "display": [
                 {
-                    "label": "Kinativ ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GOCC23",
-            "example": [
-                "alpha-beta T cell receptor complex",
-                "condensed chromosome, centromeric region"
-            ],
-            "display": [
-                {
-                    "label": "GOCC23 ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "ChEAppi",
-            "example": [
-                "KLF2",
-                "KLF5"
-            ],
-            "display": [
-                {
-                    "label": "ChEAppi ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "HPACellLines",
-            "example": [
-                "daudi",
-                "u698"
-            ],
-            "display": [
-                {
-                    "label": "HPACellLines ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "SangerDepMap",
-            "example": [
-                "201T",
-                "22RV1"
-            ],
-            "display": [
-                {
-                    "label": "SangerDepMap ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "KlijnmRNA",
-            "example": [
-                "YMB-1",
-                "YMB-1-E"
-            ],
-            "display": [
-                {
-                    "label": "KlijnmRNA ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "CCLEmRNA",
-            "example": [
-                "CHL1",
-                "HMCB"
-            ],
-            "display": [
-                {
-                    "label": "CCLEmRNA ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "JensenTissuesExpts",
-            "example": [
-                "fetus",
-                "placenta"
-            ],
-            "display": [
-                {
-                    "label": "JensenTissuesExpts ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "AllenBrainAtlasAdultMouse",
-            "example": [
-                "Field CA1, stratum radiatum",
-                "Field CA1"
-            ],
-            "display": [
-                {
-                    "label": "AllenBrainAtlasAdultMouse ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GEOChemicalPerturbation",
-            "example": [
-                "fluoxetine_mus musculus_gpl1261 _gds2803",
-                "fluoxetine_mus musculus_gpl1261_gds2803"
-            ],
-            "display": [
-                {
-                    "label": "GEOChemicalPerturbation ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "BioGPSNCI60",
-            "example": [
-                "U118",
-                "U87"
-            ],
-            "display": [
-                {
-                    "label": "BioGPSNCI60 ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "GTExAging",
-            "example": [
-                "GTEx Uterus 20-29 vs 40-49",
-                "GTEx Thyroid 20-29 vs 40-49"
-            ],
-            "display": [
-                {
-                    "label": "GTExAging ID",
+                    "label": "GWAS Catalog ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3979,14 +4081,14 @@
             ]
         },
         {
-            "node": "KlijnMutations",
+            "node": "LOCATE Predicted Protein",
             "example": [
-                "stomach",
-                "stomach"
+                "intracellular membrane-bounded organelle",
+                "membrane-bounded organelle"
             ],
             "display": [
                 {
-                    "label": "KlijnMutations ID",
+                    "label": "LOCATE Predicted Protein ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -4013,14 +4115,14 @@
             ]
         },
         {
-            "node": "JensenDiseaseTextMining",
+            "node": "GTEx eQTL",
             "example": [
-                "integumentary system cancer",
-                "skin cancer"
+                "chr10:18192888:D",
+                "rs114047680"
             ],
             "display": [
                 {
-                    "label": "JensenDiseaseTextMining ID",
+                    "label": "GTEx eQTL ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -4047,150 +4149,14 @@
             ]
         },
         {
-            "node": "JensenCompartmentCurated",
+            "node": "GO Molecular Func 2023",
             "example": [
-                "other organism cell membrane",
-                "host cell synapse"
+                "aromatase activity",
+                "MHC protein binding"
             ],
             "display": [
                 {
-                    "label": "JensenCompartmentCurated ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "TabulaSapiens",
-            "example": [
-                "Bladder-b cell",
-                "Bladder-bladder urothelial cell"
-            ],
-            "display": [
-                {
-                    "label": "TabulaSapiens ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "MSigDBOncogene",
-            "example": [
-                "KRAS.300_UP.V1",
-                "KRAS.600_UP.V1"
-            ],
-            "display": [
-                {
-                    "label": "MSigDBOncogene ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "KinaseLib",
-            "example": [
-                "AAK1",
-                "ACVR2A"
-            ],
-            "display": [
-                {
-                    "label": "KinaseLib ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "HubProteins",
-            "example": [
-                "LRIF1",
-                "RIF1"
-            ],
-            "display": [
-                {
-                    "label": "HubProteins ID",
+                    "label": "GO Molecular Func 2023 ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -4251,48 +4217,14 @@
             ]
         },
         {
-            "node": "WikiPathways",
+            "node": "SILAC Ligand Perturbation",
             "example": [
-                "Mitochondrial LC-Fatty Acid Beta-Oxidation(Homo sapiens)",
-                "Mitochondrial LC-Fatty Acid Beta-Oxidation(Mus musculus)"
+                "0min_EGF vs ctrl_HeLa (Human) [17081983]",
+                "10min_EGF vs ctrl_HeLa (Human) [17081983]"
             ],
             "display": [
                 {
-                    "label": "WikiPathways ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
-            "node": "JensenDiseaseCurated",
-            "example": [
-                "hemangioblastoma",
-                "von hippel-lindau disease"
-            ],
-            "display": [
-                {
-                    "label": "JensenDiseaseCurated ID",
+                    "label": "SILAC Ligand Perturbation ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -4322,7 +4254,7 @@
     "edges": [
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(Sanger Dep Map)"
             ],
             "selected": true,
             "display": [
@@ -4350,7 +4282,7 @@
         },
         {
             "match": [
-                "negatively_regulated_by"
+                "co-occurs_with_(GeneRIF)"
             ],
             "selected": true,
             "display": [
@@ -4378,7 +4310,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "participates_in_(WikiPathways Pathways)"
             ],
             "selected": true,
             "display": [
@@ -4398,11 +4330,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -4411,7 +4338,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "under-expressed_in_(Heiser)"
             ],
             "selected": true,
             "display": [
@@ -4444,7 +4371,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "increases_phosphorylation_of_(SILAC Drug Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -4461,11 +4388,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4477,7 +4399,7 @@
         },
         {
             "match": [
-                "negatively_regulates"
+                "has_disease_(DISEASES Curated)"
             ],
             "selected": true,
             "display": [
@@ -4505,7 +4427,7 @@
         },
         {
             "match": [
-                "negatively_regulated_by"
+                "has_phenotype_(GWASdb Phenotype)"
             ],
             "selected": true,
             "display": [
@@ -4522,34 +4444,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "colocalizes_with"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
                     "type": "text"
                 },
                 {
-                    "label": "target",
-                    "text": "${target}",
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4561,7 +4460,7 @@
         },
         {
             "match": [
-                "increases_phosphorylation_of"
+                "over-expressed_in_(HPA Cell Lines)"
             ],
             "selected": true,
             "display": [
@@ -4581,6 +4480,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -4589,7 +4493,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "phosphorylates_(PhosphoSitePlus Kinase)"
             ],
             "selected": true,
             "display": [
@@ -4617,7 +4521,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "over-expressed_in_(BioGPS NCI-60)"
             ],
             "selected": true,
             "display": [
@@ -4650,7 +4554,7 @@
         },
         {
             "match": [
-                "has_high_copy_number_in"
+                "has_small_molecule_regulator_(GTEx eQTL)"
             ],
             "selected": true,
             "display": [
@@ -4667,11 +4571,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4683,7 +4582,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "decreases_expression_of_(GEO TF Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -4700,11 +4599,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4716,7 +4610,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "participates_in_(WikiPathways PFOCR)"
             ],
             "selected": true,
             "display": [
@@ -4744,7 +4638,7 @@
         },
         {
             "match": [
-                "colocalizes_with"
+                "under-expressed_in_(Klijn mRNA)"
             ],
             "selected": true,
             "display": [
@@ -4761,6 +4655,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4772,7 +4671,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "participates_in_(HumanCYC Pathways)"
             ],
             "selected": true,
             "display": [
@@ -4800,7 +4699,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "participates_in_(Reactome)"
             ],
             "selected": true,
             "display": [
@@ -4828,7 +4727,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "over-expressed_in_(GTEx Tissue Sample)"
             ],
             "selected": true,
             "display": [
@@ -4845,6 +4744,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -4856,7 +4760,7 @@
         },
         {
             "match": [
-                "decreases_phosphorylation_of"
+                "increases_expression_of_(MSigDB Oncogenic Signatures)"
             ],
             "selected": true,
             "display": [
@@ -4884,7 +4788,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "has_high_copy_number_in_(CCLE CNV)"
             ],
             "selected": true,
             "display": [
@@ -4904,6 +4808,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -4912,7 +4821,7 @@
         },
         {
             "match": [
-                "has_small_molecule_regulator"
+                "decreases_phosphorylation_of_(SILAC Drug Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -4940,7 +4849,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "has_low_copy_number_in_(Klijn CNV)"
             ],
             "selected": true,
             "display": [
@@ -4973,7 +4882,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "targets_(TargetScan Nonconserved)"
             ],
             "selected": true,
             "display": [
@@ -4990,6 +4899,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5001,7 +4915,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(CCLE Gene Expression)"
             ],
             "selected": true,
             "display": [
@@ -5034,7 +4948,7 @@
         },
         {
             "match": [
-                "has_ligand"
+                "over-expressed_in_(ABA Developmental Human RNA Seq)"
             ],
             "selected": true,
             "display": [
@@ -5051,6 +4965,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5062,7 +4981,7 @@
         },
         {
             "match": [
-                "phosphorylates"
+                "decreases_expression_of_(GEO Virus Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -5090,7 +5009,7 @@
         },
         {
             "match": [
-                "has_high_histone_modification_in"
+                "colocalizes_with_(COMPARTMENTS Curated)"
             ],
             "selected": true,
             "display": [
@@ -5107,6 +5026,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5118,7 +5042,7 @@
         },
         {
             "match": [
-                "regulates_activity_of"
+                "decreases_expression_of_(MSigDB Oncogenic Signatures)"
             ],
             "selected": true,
             "display": [
@@ -5146,7 +5070,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "colocalizes_with_(LOCATE Curated Protein)"
             ],
             "selected": true,
             "display": [
@@ -5174,7 +5098,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "co-expressed_with_(MSigDB Comp Signatures)"
             ],
             "selected": true,
             "display": [
@@ -5191,11 +5115,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5207,7 +5126,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "is_a_member_of_the_(InterPro)"
             ],
             "selected": true,
             "display": [
@@ -5227,11 +5146,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -5240,7 +5154,7 @@
         },
         {
             "match": [
-                "positively_regulated_by"
+                "molecularly_interacts_with_(CTD Chemical)"
             ],
             "selected": true,
             "display": [
@@ -5268,7 +5182,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "is_a_member_of_(CORUM)"
             ],
             "selected": true,
             "display": [
@@ -5296,7 +5210,7 @@
         },
         {
             "match": [
-                "decreases_phosphorylation_of"
+                "has_high_histone_modification_abundance_in_(ENCODE Histone Modification)"
             ],
             "selected": true,
             "display": [
@@ -5324,7 +5238,7 @@
         },
         {
             "match": [
-                "knockout_increases_fitness_of"
+                "decreases_phosphorylation_of_(SILAC Ligand Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -5341,11 +5255,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5357,7 +5266,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "has_function_(GO Molecular Func 2023)"
             ],
             "selected": true,
             "display": [
@@ -5374,11 +5283,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5390,7 +5294,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "over-expressed_in_(ABA Developmental Human Microarray)"
             ],
             "selected": true,
             "display": [
@@ -5423,7 +5327,7 @@
         },
         {
             "match": [
-                "phosphorylates"
+                "has_high_copy_number_in_(COSMIC CNV)"
             ],
             "selected": true,
             "display": [
@@ -5451,7 +5355,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "molecularly_interacts_with_(VirusMINT Virus)"
             ],
             "selected": true,
             "display": [
@@ -5479,7 +5383,7 @@
         },
         {
             "match": [
-                "has_low_DNA_methylation_in"
+                "contained_in_(GO Cellular Component 2023)"
             ],
             "selected": true,
             "display": [
@@ -5496,11 +5400,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5512,7 +5411,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "over-expressed_in_(TCGA)"
             ],
             "selected": true,
             "display": [
@@ -5529,11 +5428,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5545,7 +5439,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "over-expressed_in_(ABA Adult Human)"
             ],
             "selected": true,
             "display": [
@@ -5578,7 +5472,7 @@
         },
         {
             "match": [
-                "regulates_activity_of"
+                "knockout_increases_fitness_of_(DepMap Gene Dependency)"
             ],
             "selected": true,
             "display": [
@@ -5606,7 +5500,7 @@
         },
         {
             "match": [
-                "is_a_member_of"
+                "has_high_DNA_methylation_in_(Roadmap Epigenomics DNA Methylation)"
             ],
             "selected": true,
             "display": [
@@ -5626,6 +5520,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -5634,7 +5533,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "increases_expression_of_(GEO Chem Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -5662,7 +5561,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "increases_expression_of_(GEO Virus Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -5690,7 +5589,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "under-expressed_in_(Proteomics DB)"
             ],
             "selected": true,
             "display": [
@@ -5707,6 +5606,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5718,7 +5622,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "has_transcription_factor_binding_evidence_of_(ChEA Binding Site 2022)"
             ],
             "selected": true,
             "display": [
@@ -5735,11 +5639,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5751,7 +5650,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "colocalizes_with_(LOCATE Predicted Protein)"
             ],
             "selected": true,
             "display": [
@@ -5779,7 +5678,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "over-expressed_in_(GTEx Tissue 2023)"
             ],
             "selected": true,
             "display": [
@@ -5807,7 +5706,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "increases_expression_of_(GEO Kinase Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -5824,6 +5723,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5835,7 +5739,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "participates_in_(KEGG)"
             ],
             "selected": true,
             "display": [
@@ -5863,7 +5767,7 @@
         },
         {
             "match": [
-                "regulates_activity_of"
+                "over-expressed_in_(MoTrPAC)"
             ],
             "selected": true,
             "display": [
@@ -5891,7 +5795,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "under-expressed_in_(MoTrPAC)"
             ],
             "selected": true,
             "display": [
@@ -5919,7 +5823,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "under-expressed_in_(HPA Cell Lines)"
             ],
             "selected": true,
             "display": [
@@ -5952,7 +5856,7 @@
         },
         {
             "match": [
-                "co-occurs_with"
+                "over-expressed_in_(CCLE Gene Expression)"
             ],
             "selected": true,
             "display": [
@@ -5969,6 +5873,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -5980,7 +5889,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "over-expressed_in_(ABA Adult Mouse)"
             ],
             "selected": true,
             "display": [
@@ -5997,6 +5906,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6008,7 +5922,7 @@
         },
         {
             "match": [
-                "has_a_mutation_in"
+                "over-expressed_in_(LINCS KiNativ)"
             ],
             "selected": true,
             "display": [
@@ -6036,7 +5950,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "over-expressed_in_(GDSC)"
             ],
             "selected": true,
             "display": [
@@ -6069,7 +5983,7 @@
         },
         {
             "match": [
-                "knockout_increases_fitness_of"
+                "over-expressed_in_(Sanger Dep Map)"
             ],
             "selected": true,
             "display": [
@@ -6097,7 +6011,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "expressed_in_(TISSUES TextMining)"
             ],
             "selected": true,
             "display": [
@@ -6117,11 +6031,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -6130,7 +6039,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "knockout_increases_fitness_of_(Achilles)"
             ],
             "selected": true,
             "display": [
@@ -6163,7 +6072,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "has_phenotype_(HPO)"
             ],
             "selected": true,
             "display": [
@@ -6191,7 +6100,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "increases_expression_of_(KnockTF)"
             ],
             "selected": true,
             "display": [
@@ -6208,11 +6117,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6224,7 +6128,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "co-occurs_with_(Phosphosite Textmining)"
             ],
             "selected": true,
             "display": [
@@ -6252,7 +6156,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "expressed_in_(TISSUES Expts)"
             ],
             "selected": true,
             "display": [
@@ -6280,7 +6184,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "molecularly_interacts_with_(GlyGen)"
             ],
             "selected": true,
             "display": [
@@ -6308,7 +6212,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "under-expressed_in_(GTEx Tissue Sample)"
             ],
             "selected": true,
             "display": [
@@ -6325,6 +6229,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6336,7 +6245,7 @@
         },
         {
             "match": [
-                "phosphorylates"
+                "increases_expression_of_(LINCS CMAP Chemical)"
             ],
             "selected": true,
             "display": [
@@ -6364,7 +6273,7 @@
         },
         {
             "match": [
-                "expressed_in"
+                "under-expressed_in_(Roadmap Epigenomics Gene Expression)"
             ],
             "selected": true,
             "display": [
@@ -6381,6 +6290,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6392,7 +6306,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "participates_in_(GO Bio Process 2023)"
             ],
             "selected": true,
             "display": [
@@ -6409,11 +6323,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6425,7 +6334,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "decreases_expression_of_(GEO Disease Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -6458,7 +6367,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "negatively_regulates_(DeepCoverMOA)"
             ],
             "selected": true,
             "display": [
@@ -6486,7 +6395,7 @@
         },
         {
             "match": [
-                "is_a_member_of_the"
+                "has_high_copy_number_in_(Klijn CNV)"
             ],
             "selected": true,
             "display": [
@@ -6506,6 +6415,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -6514,7 +6428,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "has_low_copy_number_in_(COSMIC CNV)"
             ],
             "selected": true,
             "display": [
@@ -6542,7 +6456,7 @@
         },
         {
             "match": [
-                "colocalizes_with"
+                "dephosphorylates_(DEPOD)"
             ],
             "selected": true,
             "display": [
@@ -6559,11 +6473,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6575,7 +6484,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "has_ligand_(Guide To Pharm Chem)"
             ],
             "selected": true,
             "display": [
@@ -6592,11 +6501,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6608,7 +6512,7 @@
         },
         {
             "match": [
-                "has_high_copy_number_in"
+                "over-expressed_in_(Klijn mRNA)"
             ],
             "selected": true,
             "display": [
@@ -6641,7 +6545,7 @@
         },
         {
             "match": [
-                "has_function"
+                "under-expressed_in_(GTEx Tissue 2023)"
             ],
             "selected": true,
             "display": [
@@ -6669,7 +6573,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "expressed_in_(Tabula Sapiens)"
             ],
             "selected": true,
             "display": [
@@ -6697,7 +6601,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "colocalizes_with_(COMPARTMENTS Expts)"
             ],
             "selected": true,
             "display": [
@@ -6714,6 +6618,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6725,7 +6634,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "over-expressed_in_(Roadmap Epigenomics Gene Expression)"
             ],
             "selected": true,
             "display": [
@@ -6742,6 +6651,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6753,7 +6667,7 @@
         },
         {
             "match": [
-                "co-expressed_with"
+                "regulates_activity_of_(MotifMap)"
             ],
             "selected": true,
             "display": [
@@ -6781,7 +6695,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "decreases_expression_of_(GEO Chem Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -6809,7 +6723,7 @@
         },
         {
             "match": [
-                "is_mutated_in"
+                "has_low_copy_number_in_(CCLE CNV)"
             ],
             "selected": true,
             "display": [
@@ -6829,6 +6743,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -6837,7 +6756,7 @@
         },
         {
             "match": [
-                "expressed_in"
+                "targets_(MiRTarBase)"
             ],
             "selected": true,
             "display": [
@@ -6865,7 +6784,7 @@
         },
         {
             "match": [
-                "increases_phosphorylation_of"
+                "positively_regulates_(DeepCoverMOA)"
             ],
             "selected": true,
             "display": [
@@ -6893,7 +6812,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(ABA Developmental Human Microarray)"
             ],
             "selected": true,
             "display": [
@@ -6926,7 +6845,7 @@
         },
         {
             "match": [
-                "targets"
+                "has_high_histone_modification_in_(Roadmap Epigenomics Histone Modification)"
             ],
             "selected": true,
             "display": [
@@ -6943,11 +6862,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -6959,7 +6873,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(GDSC)"
             ],
             "selected": true,
             "display": [
@@ -6992,7 +6906,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "targets_(TargetScan Conserved)"
             ],
             "selected": true,
             "display": [
@@ -7025,7 +6939,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "negatively_regulated_by_(LINCS L1000 CRISPR)"
             ],
             "selected": true,
             "display": [
@@ -7053,7 +6967,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "over-expressed_in_(ABA Prenatal Human)"
             ],
             "selected": true,
             "display": [
@@ -7086,7 +7000,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "phosphorylates_(Kinase Library)"
             ],
             "selected": true,
             "display": [
@@ -7103,11 +7017,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7119,7 +7028,7 @@
         },
         {
             "match": [
-                "has_high_copy_number_in"
+                "has_disease_(DISEASES Expts)"
             ],
             "selected": true,
             "display": [
@@ -7136,6 +7045,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7147,7 +7061,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "has_phenotype_(ClinVar)"
             ],
             "selected": true,
             "display": [
@@ -7175,7 +7089,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "molecularly_interacts_with_(MW Metabolites)"
             ],
             "selected": true,
             "display": [
@@ -7192,11 +7106,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7208,7 +7117,7 @@
         },
         {
             "match": [
-                "knockout_decreases_fitness_of"
+                "over-expressed_in_(CCLE Proteomics)"
             ],
             "selected": true,
             "display": [
@@ -7228,11 +7137,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -7241,7 +7145,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "regulates_activity_of_(ENCODE TF Targets)"
             ],
             "selected": true,
             "display": [
@@ -7269,7 +7173,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "over-expressed_in_(BioGPS Human)"
             ],
             "selected": true,
             "display": [
@@ -7302,7 +7206,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "positively_regulated_by_(LINCS L1000 CRISPR)"
             ],
             "selected": true,
             "display": [
@@ -7319,11 +7223,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7335,7 +7234,7 @@
         },
         {
             "match": [
-                "has_a_mutation_in"
+                "decreases_expression_of_(KnockTF)"
             ],
             "selected": true,
             "display": [
@@ -7363,7 +7262,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "decreases_expression_of_(GEO Gene Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -7380,11 +7279,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7396,7 +7290,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "has_small_molecule_regulator_(DrugBank)"
             ],
             "selected": true,
             "display": [
@@ -7424,7 +7318,7 @@
         },
         {
             "match": [
-                "expressed_in"
+                "participates_in_(Biocarta)"
             ],
             "selected": true,
             "display": [
@@ -7452,7 +7346,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "over-expressed_in_(Proteomics DB)"
             ],
             "selected": true,
             "display": [
@@ -7469,6 +7363,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7480,7 +7379,7 @@
         },
         {
             "match": [
-                "decreases_phosphorylation_of"
+                "decreases_expression_of_(LINCS CMAP Chemical)"
             ],
             "selected": true,
             "display": [
@@ -7508,7 +7407,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "under-expressed_in_(HPA Tissue Protein)"
             ],
             "selected": true,
             "display": [
@@ -7541,7 +7440,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "under-expressed_in_(BioGPS Human)"
             ],
             "selected": true,
             "display": [
@@ -7558,6 +7457,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7569,7 +7473,7 @@
         },
         {
             "match": [
-                "in_signature_reported_in"
+                "increases_expression_of_(GEO Gene Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -7597,7 +7501,7 @@
         },
         {
             "match": [
-                "colocalizes_with"
+                "molecularly_interacts_with_(HMDB)"
             ],
             "selected": true,
             "display": [
@@ -7614,11 +7518,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7630,7 +7529,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "increases_expression_of_(GEO Disease Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -7663,7 +7562,7 @@
         },
         {
             "match": [
-                "has_characteristic"
+                "has_disease_(PhosphoSitePlus Disease)"
             ],
             "selected": true,
             "display": [
@@ -7680,11 +7579,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7696,7 +7590,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "has_a_mutation_in_(COSMIC Mutations)"
             ],
             "selected": true,
             "display": [
@@ -7724,7 +7618,7 @@
         },
         {
             "match": [
-                "has_low_copy_number_in"
+                "decreases_expression_of_(CMAP Small Molecule Perturbations)"
             ],
             "selected": true,
             "display": [
@@ -7741,11 +7635,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7757,7 +7646,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "molecularly_interacts_with_(Hub Proteins)"
             ],
             "selected": true,
             "display": [
@@ -7774,11 +7663,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7790,7 +7674,7 @@
         },
         {
             "match": [
-                "positively_regulates"
+                "under-expressed_in_(ABA Adult Human)"
             ],
             "selected": true,
             "display": [
@@ -7807,6 +7691,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7818,7 +7707,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "has_ligand_(Guide To Pharm Protein)"
             ],
             "selected": true,
             "display": [
@@ -7846,7 +7735,7 @@
         },
         {
             "match": [
-                "has_high_DNA_methylation_in"
+                "has_a_mutation_in_(CCLE Mutations)"
             ],
             "selected": true,
             "display": [
@@ -7863,11 +7752,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -7879,7 +7763,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "has_disease_(GWASdb Disease)"
             ],
             "selected": true,
             "display": [
@@ -7912,7 +7796,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "regulates_activity_of_(ENCODE TF Binding Site)"
             ],
             "selected": true,
             "display": [
@@ -7940,7 +7824,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "under-expressed_in_(LINCS KiNativ)"
             ],
             "selected": true,
             "display": [
@@ -7968,7 +7852,7 @@
         },
         {
             "match": [
-                "regulates_activity_of"
+                "binds_to_promoter_of_(ChEA TF Targets)"
             ],
             "selected": true,
             "display": [
@@ -7996,7 +7880,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "participates_in_(PID Pathways)"
             ],
             "selected": true,
             "display": [
@@ -8013,11 +7897,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8029,7 +7908,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "over-expressed_in_(HPA Tissue Samples)"
             ],
             "selected": true,
             "display": [
@@ -8046,6 +7925,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8057,7 +7941,7 @@
         },
         {
             "match": [
-                "has_low_copy_number_in"
+                "decreases_expression_of_(GEO Kinase Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -8090,7 +7974,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "regulates_activity_of_(JASPAR PWMs)"
             ],
             "selected": true,
             "display": [
@@ -8118,7 +8002,7 @@
         },
         {
             "match": [
-                "has_high_histone_modification_abundance_in"
+                "has_low_DNA_methylation_in_(Roadmap Epigenomics DNA Methylation)"
             ],
             "selected": true,
             "display": [
@@ -8135,6 +8019,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8146,7 +8035,7 @@
         },
         {
             "match": [
-                "has_small_molecule_regulator"
+                "under-expressed_in_(HPA Tissue Samples)"
             ],
             "selected": true,
             "display": [
@@ -8163,6 +8052,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8174,7 +8068,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "increases_expression_of_(GEO TF Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -8191,11 +8085,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8207,7 +8096,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "under-expressed_in_(ABA Developmental Human RNA Seq)"
             ],
             "selected": true,
             "display": [
@@ -8240,7 +8129,7 @@
         },
         {
             "match": [
-                "has_ligand"
+                "has_phenotype_(OMIM)"
             ],
             "selected": true,
             "display": [
@@ -8268,7 +8157,7 @@
         },
         {
             "match": [
-                "contained_in"
+                "has_disease_(CTD Disease)"
             ],
             "selected": true,
             "display": [
@@ -8285,6 +8174,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8296,7 +8190,7 @@
         },
         {
             "match": [
-                "dephosphorylates"
+                "in_signature_reported_in_(GeneSigDB)"
             ],
             "selected": true,
             "display": [
@@ -8324,7 +8218,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "colocalizes_with_(COMPARTMENTS Text Mining)"
             ],
             "selected": true,
             "display": [
@@ -8341,6 +8235,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8352,7 +8251,7 @@
         },
         {
             "match": [
-                "increases_phosphorylation_of"
+                "over-expressed_in_(GTEx Aging Signatures)"
             ],
             "selected": true,
             "display": [
@@ -8380,7 +8279,7 @@
         },
         {
             "match": [
-                "binds_to_promoter_of"
+                "has_disease_(GAD High Level)"
             ],
             "selected": true,
             "display": [
@@ -8397,6 +8296,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8408,7 +8312,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "is_mutated_in_(Klijn Mutations)"
             ],
             "selected": true,
             "display": [
@@ -8425,11 +8329,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8441,7 +8340,7 @@
         },
         {
             "match": [
-                "increases_expression_of"
+                "over-expressed_in_(HuBMAP Azimuth Cell Type)"
             ],
             "selected": true,
             "display": [
@@ -8469,7 +8368,7 @@
         },
         {
             "match": [
-                "has_low_copy_number_in"
+                "under-expressed_in_(ABA Adult Mouse)"
             ],
             "selected": true,
             "display": [
@@ -8486,6 +8385,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8497,7 +8401,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(BioGPS Mouse)"
             ],
             "selected": true,
             "display": [
@@ -8530,7 +8434,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "under-expressed_in_(GTEx Aging Signatures)"
             ],
             "selected": true,
             "display": [
@@ -8550,11 +8454,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -8563,7 +8462,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "under-expressed_in_(HPA Tissues mRNA)"
             ],
             "selected": true,
             "display": [
@@ -8596,7 +8495,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(HPM)"
             ],
             "selected": true,
             "display": [
@@ -8629,7 +8528,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "over-expressed_in_(HPM)"
             ],
             "selected": true,
             "display": [
@@ -8646,6 +8545,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8657,7 +8561,7 @@
         },
         {
             "match": [
-                "has_small_molecule_inhibitor"
+                "is_marker_for_(CellMarker)"
             ],
             "selected": true,
             "display": [
@@ -8674,11 +8578,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8690,7 +8589,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "over-expressed_in_(HPA Tissue Protein)"
             ],
             "selected": true,
             "display": [
@@ -8707,6 +8606,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8718,7 +8622,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "expressed_in_(TISSUES Curated)"
             ],
             "selected": true,
             "display": [
@@ -8746,7 +8650,7 @@
         },
         {
             "match": [
-                "has_transcription_factor_binding_evidence_of"
+                "increases_expression_of_(CMAP Small Molecule Perturbations)"
             ],
             "selected": true,
             "display": [
@@ -8774,7 +8678,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "negatively_regulated_by_(LINCS L1000 Chem Pert)"
             ],
             "selected": true,
             "display": [
@@ -8791,11 +8695,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8807,7 +8706,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "has_disease_(GAD Cell Line)"
             ],
             "selected": true,
             "display": [
@@ -8835,7 +8734,7 @@
         },
         {
             "match": [
-                "targets"
+                "over-expressed_in_(BioGPS Mouse)"
             ],
             "selected": true,
             "display": [
@@ -8855,6 +8754,11 @@
                     "type": "text"
                 },
                 {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -8863,7 +8767,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "phosphorylates_(KEA)"
             ],
             "selected": true,
             "display": [
@@ -8891,7 +8795,7 @@
         },
         {
             "match": [
-                "expressed_in"
+                "under-expressed_in_(TCGA)"
             ],
             "selected": true,
             "display": [
@@ -8919,7 +8823,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "has_phenotype_(IMPC Knockout)"
             ],
             "selected": true,
             "display": [
@@ -8936,11 +8840,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -8952,7 +8851,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "increases_phosphorylation_of_(SILAC Ligand Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -8980,7 +8879,7 @@
         },
         {
             "match": [
-                "is_marker_for"
+                "decreases_phosphorylation_of_(SILAC Gene Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -9008,7 +8907,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "molecularly_interacts_with_(Pathway Commons)"
             ],
             "selected": true,
             "display": [
@@ -9025,11 +8924,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9041,7 +8935,7 @@
         },
         {
             "match": [
-                "molecularly_interacts_with"
+                "has_small_molecule_inhibitor_(LINCS KinomeScan)"
             ],
             "selected": true,
             "display": [
@@ -9058,6 +8952,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9069,7 +8968,7 @@
         },
         {
             "match": [
-                "colocalizes_with"
+                "under-expressed_in_(BioGPS NCI-60)"
             ],
             "selected": true,
             "display": [
@@ -9102,7 +9001,7 @@
         },
         {
             "match": [
-                "decreases_expression_of"
+                "has_characteristic_(dbGAP)"
             ],
             "selected": true,
             "display": [
@@ -9119,6 +9018,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9130,7 +9034,7 @@
         },
         {
             "match": [
-                "has_phenotype"
+                "participates_in_(PANTHER)"
             ],
             "selected": true,
             "display": [
@@ -9158,7 +9062,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "positively_regulated_by_(LINCS L1000 Chem Pert)"
             ],
             "selected": true,
             "display": [
@@ -9178,11 +9082,6 @@
                     "type": "text"
                 },
                 {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
                     "label": "threshold",
                     "text": "${threshold}",
                     "type": "text"
@@ -9191,7 +9090,7 @@
         },
         {
             "match": [
-                "expressed_in"
+                "over-expressed_in_(HPA Tissues mRNA)"
             ],
             "selected": true,
             "display": [
@@ -9208,6 +9107,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9219,7 +9123,7 @@
         },
         {
             "match": [
-                "participates_in"
+                "has_phenotype_(HuGE Navigator)"
             ],
             "selected": true,
             "display": [
@@ -9247,7 +9151,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "has_phenotype_(GWAS Catalog)"
             ],
             "selected": true,
             "display": [
@@ -9280,7 +9184,7 @@
         },
         {
             "match": [
-                "over-expressed_in"
+                "under-expressed_in_(ABA Prenatal Human)"
             ],
             "selected": true,
             "display": [
@@ -9313,7 +9217,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "over-expressed_in_(Heiser)"
             ],
             "selected": true,
             "display": [
@@ -9330,6 +9234,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9341,7 +9250,7 @@
         },
         {
             "match": [
-                "positively_regulated_by"
+                "increases_phosphorylation_of_(SILAC Gene Perturbation)"
             ],
             "selected": true,
             "display": [
@@ -9369,7 +9278,7 @@
         },
         {
             "match": [
-                "has_disease"
+                "knockout_decreases_fitness_of_(Achilles)"
             ],
             "selected": true,
             "display": [
@@ -9402,7 +9311,7 @@
         },
         {
             "match": [
-                "co-occurs_with"
+                "has_disease_(DISEASES Text Mining)"
             ],
             "selected": true,
             "display": [
@@ -9419,6 +9328,11 @@
                 {
                     "label": "target",
                     "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "standardized value",
+                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9430,7 +9344,7 @@
         },
         {
             "match": [
-                "under-expressed_in"
+                "molecularly_interacts_with_(VirusMINT Viral Protein)"
             ],
             "selected": true,
             "display": [
@@ -9447,11 +9361,6 @@
                 {
                     "label": "target",
                     "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "standardized value",
-                    "text": "${standardized_value}",
                     "type": "text"
                 },
                 {
@@ -9488,7 +9397,7 @@
                     "init_function": "initialize_kg",
                     "initial_query": {
                         "start": "gene",
-                        "start_term": "APOE",
+                        "start_term": "STAT3",
                         "start_field": "label"
                     },
                     "subheader": {
