@@ -4,14 +4,16 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/achilles.new_archive.zip",
         "size": "969.51KB",
         "updated": "07-01-2024",
+        "description": "fitness scores for cell lines following single gene knockdowns",
         "nodes": 5047,
         "edges": 104046
     },
     {
-        "source": "Azimuth Cell Type",
+        "source": "HuBMAP Azimuth Cell Type",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/azimuth.new_archive.zip",
         "size": "124.06KB",
         "updated": "07-01-2024",
+        "description": "gene-cell type annotations from integrated reference scRNA-seq gene expression profiles",
         "nodes": 4986,
         "edges": 13794
     },
@@ -20,6 +22,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biocarta.new_archive.zip",
         "size": "32.37KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from Biocarta",
         "nodes": 1651,
         "edges": 4509
     },
@@ -28,6 +31,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpshuman.new_archive.zip",
         "size": "1.81MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for human tissues and cell types",
         "nodes": 16463,
         "edges": 205445
     },
@@ -36,6 +40,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsmouse.new_archive.zip",
         "size": "1.50MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for mouse tissues and cell types",
         "nodes": 15511,
         "edges": 170878
     },
@@ -44,6 +49,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsnci60.new_archive.zip",
         "size": "1.68MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for the NCI-60 panel of cancer cell lines",
         "nodes": 12721,
         "edges": 204284
     },
@@ -52,6 +58,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadulthuman.new_archive.zip",
         "size": "9.26MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for 6 adult human brain tissue samples spanning ~300 brain structures",
         "nodes": 18393,
         "edges": 1115464
     },
@@ -60,6 +67,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadultmouse.new_archive.zip",
         "size": "25.95MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for adult mouse brain tissues spanning ~2000 anatomically defined brain structures",
         "nodes": 16467,
         "edges": 3178416
     },
@@ -68,6 +76,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasdevelopmentalhumanmicroarray.new_archive.zip",
         "size": "10.55MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for human brain tissue samples spanning 27 time points and 26 brain structures",
         "nodes": 17730,
         "edges": 1270962
     },
@@ -76,6 +85,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasdevelopmentalhumanrnaseq.new_archive.zip",
         "size": "9.85MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for human brain tissue samples spanning 31 time points and 26 brain structures",
         "nodes": 15596,
         "edges": 1183125
     },
@@ -84,6 +94,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasprenatalhuman.new_archive.zip",
         "size": "12.25MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for 4 human prenatal brain tissue samples spanning 4 time points and ~300 brain structures",
         "nodes": 19465,
         "edges": 1464892
     },
@@ -92,6 +103,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclecnv.new_archive.zip",
         "size": "9.17MB",
         "updated": "07-01-2024",
+        "description": "gene-level copy number variation profiles for cancer cell lines",
         "nodes": 24300,
         "edges": 1148953
     },
@@ -100,6 +112,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclemrna.new_archive.zip",
         "size": "6.69MB",
         "updated": "07-01-2024",
+        "description": "mRNA microarray expression profiles for cancer cell lines",
         "nodes": 19060,
         "edges": 751223
     },
@@ -108,6 +121,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cclemut.new_archive.zip",
         "size": "453.21KB",
         "updated": "07-01-2024",
+        "description": "gene-level mutation profiles for cancer cell lines",
         "nodes": 2571,
         "edges": 105921
     },
@@ -116,6 +130,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ccleproteomics.new_archive.zip",
         "size": "881.01KB",
         "updated": "07-01-2024",
+        "description": "Protein intensity values acquired using mass spectrometry across human cancerous cell lines",
         "nodes": 9334,
         "edges": 122680
     },
@@ -124,6 +139,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cellmarker.new_archive.zip",
         "size": "551.23KB",
         "updated": "07-01-2024",
+        "description": "cell type markers across various tissues from human and mouse scRNA-seq",
         "nodes": 20826,
         "edges": 65981
     },
@@ -132,6 +148,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/chea22.new_archive.zip",
         "size": "3.85MB",
         "updated": "07-01-2024",
+        "description": "transcription factor binding site profiles from published ChIP-chip, ChIP-seq, and other transcription factor functional studies",
         "nodes": 18719,
         "edges": 917047
     },
@@ -140,6 +157,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cheatargets.new_archive.zip",
         "size": "1.55MB",
         "updated": "07-01-2024",
+        "description": "target genes of transcription factors from published ChIP-chip, ChIP-seq, and other transcription factor binding site profiling studies",
         "nodes": 21423,
         "edges": 386776
     },
@@ -148,6 +166,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/clinvar.new_archive.zip",
         "size": "92.91KB",
         "updated": "07-01-2024",
+        "description": "SNP-phenotype associations curated by ClinVar users from various sources",
         "nodes": 5749,
         "edges": 3638
     },
@@ -156,6 +175,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cmap.new_archive.zip",
         "size": "5.67MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines following chemical perturbation",
         "nodes": 18248,
         "edges": 1201897
     },
@@ -164,6 +184,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/corum.new_archive.zip",
         "size": "105.32KB",
         "updated": "07-01-2024",
+        "description": "proteins participating in complexes by manual literature curation",
         "nodes": 4865,
         "edges": 9015
     },
@@ -172,6 +193,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cosmiccnv.new_archive.zip",
         "size": "621.65KB",
         "updated": "07-01-2024",
+        "description": "gene-level copy number variation profiles for cancer cell lines",
         "nodes": 20707,
         "edges": 102249
     },
@@ -180,6 +202,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/cosmicmut.new_archive.zip",
         "size": "3.09MB",
         "updated": "07-01-2024",
+        "description": "gene mutations in cancer cell lines from low-throughput or high-throughput studies",
         "nodes": 18876,
         "edges": 746376
     },
@@ -188,6 +211,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ctdchemical.new_archive.zip",
         "size": "721.92KB",
         "updated": "07-01-2024",
+        "description": "chemical-gene interactions curated from literature",
         "nodes": 20641,
         "edges": 124344
     },
@@ -196,6 +220,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/ctddisease.new_archive.zip",
         "size": "6.19MB",
         "updated": "07-01-2024",
+        "description": "disease-gene interactions from manually curated literature",
         "nodes": 22473,
         "edges": 888519
     },
@@ -204,6 +229,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/dbgap.new_archive.zip",
         "size": "169.66KB",
         "updated": "07-01-2024",
+        "description": "gene-trait associations curated from genetic association studies",
         "nodes": 6178,
         "edges": 12769
     },
@@ -212,6 +238,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/deepcovermoa.new_archive.zip",
         "size": "1.16MB",
         "updated": "07-01-2024",
+        "description": "protein expression profiles in HCT116 cell line following drug treatment",
         "nodes": 8624,
         "edges": 173748
     },
@@ -220,6 +247,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/depmapgenedep.new_archive.zip",
         "size": "5.15MB",
         "updated": "07-01-2024",
+        "description": "dependency scores for cell lines following single gene knockdowns",
         "nodes": 17041,
         "edges": 697098
     },
@@ -228,6 +256,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/depod.new_archive.zip",
         "size": "6.80KB",
         "updated": "07-01-2024",
+        "description": "phosphatase-substrate interactions manually curated from literature and databases of protein annotations or protein interactions",
         "nodes": 405,
         "edges": 819
     },
@@ -236,6 +265,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/drugbank.new_archive.zip",
         "size": "160.41KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins targeted by drugs by manual literature curation",
         "nodes": 7296,
         "edges": 15261
     },
@@ -244,6 +274,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodehm.new_archive.zip",
         "size": "16.22MB",
         "updated": "07-01-2024",
+        "description": "histone site modification profiles for cell lines from ENCODE",
         "nodes": 22442,
         "edges": 4454173
     },
@@ -252,6 +283,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodetfbind.new_archive.zip",
         "size": "31.48MB",
         "updated": "07-01-2024",
+        "description": "transcription factor binding site profiles for cell lines",
         "nodes": 24524,
         "edges": 8803973
     },
@@ -260,6 +292,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/encodetfppi.new_archive.zip",
         "size": "6.05MB",
         "updated": "07-01-2024",
+        "description": "target genes of transcription factors from transcription factor binding site profiles",
         "nodes": 22633,
         "edges": 1655383
     },
@@ -268,6 +301,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicsdnamethylation.new_archive.zip",
         "size": "537.38KB",
         "updated": "07-01-2024",
+        "description": "DNA methylation profiles for primary cell types and tissues",
         "nodes": 13715,
         "edges": 49516
     },
@@ -276,6 +310,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicshm.new_archive.zip",
         "size": "5.05MB",
         "updated": "07-01-2024",
+        "description": "histone modification profiles for primary cells and tissues",
         "nodes": 21415,
         "edges": 1201230
     },
@@ -284,6 +319,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/epigenomicsmrna.new_archive.zip",
         "size": "1.01MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for primary cell types and tissues",
         "nodes": 12881,
         "edges": 109318
     },
@@ -292,6 +328,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gad.new_archive.zip",
         "size": "763.23KB",
         "updated": "07-01-2024",
+        "description": "gene-disease associations curated from genetic association studies",
         "nodes": 23480,
         "edges": 75029
     },
@@ -300,6 +337,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gadhighlevel.new_archive.zip",
         "size": "184.06KB",
         "updated": "07-01-2024",
+        "description": "gene-disease associations curated from genetic association studies",
         "nodes": 8034,
         "edges": 28200
     },
@@ -308,6 +346,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gdsc.new_archive.zip",
         "size": "2.53MB",
         "updated": "07-01-2024",
+        "description": "mRNA microarray expression profiles for cancer cell lines",
         "nodes": 12328,
         "edges": 280242
     },
@@ -316,6 +355,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/generif.new_archive.zip",
         "size": "10.91MB",
         "updated": "07-01-2024",
+        "description": "statements describing functions of genes distilled from biomedical publications",
         "nodes": 106242,
         "edges": 2549276
     },
@@ -324,6 +364,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/genesigdb.new_archive.zip",
         "size": "1.95MB",
         "updated": "07-01-2024",
+        "description": "gene signatures reported in the literature that were derived from analysis of transcriptomic or proteomic data",
         "nodes": 23024,
         "edges": 416256
     },
@@ -332,6 +373,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geochemical.new_archive.zip",
         "size": "1.43MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following small molecule perturbation",
         "nodes": 21751,
         "edges": 318530
     },
@@ -340,6 +382,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geodisease.new_archive.zip",
         "size": "1.40MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following disease perturbation",
         "nodes": 18749,
         "edges": 139800
     },
@@ -348,6 +391,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geogene.new_archive.zip",
         "size": "1.95MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following genetic perturbation (knockdown, knockout, over-expression, mutation)",
         "nodes": 22758,
         "edges": 367922
     },
@@ -356,6 +400,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geokinase.new_archive.zip",
         "size": "1.64MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following kinase perturbation (inhibition, activation, knockdown, knockout, over-expression, mutation)",
         "nodes": 20074,
         "edges": 171000
     },
@@ -364,6 +409,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geotf.new_archive.zip",
         "size": "776.69KB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following transcription factor perturbation (inhibition, activation, knockdown, knockout, over-expression, mutation)",
         "nodes": 19433,
         "edges": 151898
     },
@@ -372,6 +418,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/geovirus.new_archive.zip",
         "size": "1.16MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for cell lines or tissues following viral infection",
         "nodes": 20145,
         "edges": 222682
     },
@@ -380,6 +427,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/glygen.new_archive.zip",
         "size": "129.34KB",
         "updated": "07-01-2024",
+        "description": "proteins glycosylated by saccharide ligands from glycosylation site citations",
         "nodes": 4141,
         "edges": 20486
     },
@@ -388,6 +436,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gobp23.new_archive.zip",
         "size": "1.24MB",
         "updated": "07-01-2024",
+        "description": "curated annotations of genes with biological processes",
         "nodes": 27129,
         "edges": 198050
     },
@@ -396,6 +445,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gocc23.new_archive.zip",
         "size": "284.73KB",
         "updated": "07-01-2024",
+        "description": "curated annotations of genes with cellular components",
         "nodes": 12015,
         "edges": 41883
     },
@@ -404,6 +454,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gomf23.new_archive.zip",
         "size": "397.23KB",
         "updated": "07-01-2024",
+        "description": "curated annotations of genes with molecular functions",
         "nodes": 16329,
         "edges": 50339
     },
@@ -412,6 +463,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexagingsignatures.new_archive.zip",
         "size": "436.19KB",
         "updated": "07-01-2024",
+        "description": "tissue-specific aging signatures createed from GTEx RNA-seq gene expression profiles",
         "nodes": 16182,
         "edges": 67500
     },
@@ -420,6 +472,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexeqtl.new_archive.zip",
         "size": "78.67KB",
         "updated": "07-01-2024",
+        "description": "significance values for all gene-SNP pairs testing likelihood that SNP affects gene expression",
         "nodes": 7964,
         "edges": 149
     },
@@ -428,6 +481,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtexsample.new_archive.zip",
         "size": "71.79MB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for tissue samples from GTEx",
         "nodes": 22167,
         "edges": 8421702
     },
@@ -436,6 +490,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gtextissue23.new_archive.zip",
         "size": "557.88KB",
         "updated": "07-01-2024",
+        "description": "gene expression profiles for tissues from GEx by RNA-seq",
         "nodes": 17422,
         "edges": 108000
     },
@@ -444,6 +499,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/guidetopharmchemical.new_archive.zip",
         "size": "119.51KB",
         "updated": "07-01-2024",
+        "description": "chemical ligand-receptor interactions curated by experts",
         "nodes": 5793,
         "edges": 9380
     },
@@ -452,6 +508,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/guidetopharmprotein.new_archive.zip",
         "size": "5.28KB",
         "updated": "07-01-2024",
+        "description": "protein ligand-receptor interactions curated by experts",
         "nodes": 398,
         "edges": 410
     },
@@ -460,6 +517,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwascatalog.new_archive.zip",
         "size": "131.38KB",
         "updated": "07-01-2024",
+        "description": "SNP-phenotype association p-values curated from published GWAS",
         "nodes": 5363,
         "edges": 8255
     },
@@ -468,6 +526,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwasdbdisease.new_archive.zip",
         "size": "1.68MB",
         "updated": "07-01-2024",
+        "description": "SNP-disease association p-values curated from published GWAS",
         "nodes": 12389,
         "edges": 217330
     },
@@ -476,6 +535,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/gwasdbphenotype.new_archive.zip",
         "size": "2.02MB",
         "updated": "07-01-2024",
+        "description": "SNP-phenotype association p-values curated from published GWAS",
         "nodes": 13309,
         "edges": 274574
     },
@@ -484,6 +544,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/heiser.new_archive.zip",
         "size": "1.74MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for breast cancer cell lines measured by microarray",
         "nodes": 15200,
         "edges": 196872
     },
@@ -492,6 +553,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hmdb.new_archive.zip",
         "size": "2.82MB",
         "updated": "07-01-2024",
+        "description": "biomolecular interactions between metabolites and proteins, such as processing enzymes, curated from literature",
         "nodes": 27463,
         "edges": 845725
     },
@@ -500,6 +562,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpacelllines.new_archive.zip",
         "size": "944.85KB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for cell lines from HPA",
         "nodes": 15415,
         "edges": 102943
     },
@@ -508,6 +571,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpasamples.new_archive.zip",
         "size": "2.61MB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for tissue samples from HPA",
         "nodes": 16779,
         "edges": 303282
     },
@@ -516,6 +580,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpatissuesmrna.new_archive.zip",
         "size": "804.74KB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for tissues from HPA",
         "nodes": 17457,
         "edges": 81092
     },
@@ -524,6 +589,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpatissuesprotein.new_archive.zip",
         "size": "1.28MB",
         "updated": "07-01-2024",
+        "description": "semiquantitative protein expression profiles for tissues",
         "nodes": 15750,
         "edges": 138585
     },
@@ -532,6 +598,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpm.new_archive.zip",
         "size": "65.00KB",
         "updated": "07-01-2024",
+        "description": "protein expression profiles for tissues and cell types",
         "nodes": 4366,
         "edges": 4362
     },
@@ -540,6 +607,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hpo.new_archive.zip",
         "size": "1.28MB",
         "updated": "07-01-2024",
+        "description": "phenotype-causing gene mutations of human phenotypes from disease knowledgebases",
         "nodes": 10000,
         "edges": 304995
     },
@@ -548,6 +616,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hubs.new_archive.zip",
         "size": "305.68KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins interacting with hub proteins aggregated from data\\t",
         "nodes": 9651,
         "edges": 58327
     },
@@ -556,6 +625,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/hugenavigator.new_archive.zip",
         "size": "667.68KB",
         "updated": "07-01-2024",
+        "description": "gene-phenotype associations extracted from published GWAS by automated text-mining",
         "nodes": 14770,
         "edges": 141799
     },
@@ -564,6 +634,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/humancyc.new_archive.zip",
         "size": "22.43KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from HumanCyc",
         "nodes": 1218,
         "edges": 1839
     },
@@ -572,6 +643,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/interpro.new_archive.zip",
         "size": "551.79KB",
         "updated": "07-01-2024",
+        "description": "protein domains predicted for gene products based on sequence similarity to known domain signatures",
         "nodes": 29017,
         "edges": 62614
     },
@@ -580,6 +652,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jasparpwm.new_archive.zip",
         "size": "714.50KB",
         "updated": "07-01-2024",
+        "description": "target genes of transcription factors predicted using known transcription factor binding site motifs",
         "nodes": 21486,
         "edges": 148069
     },
@@ -588,6 +661,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmentcurated.new_archive.zip",
         "size": "1.55MB",
         "updated": "07-01-2024",
+        "description": "protein subcellular localization evidence scores by manual literature curation",
         "nodes": 18199,
         "edges": 328753
     },
@@ -596,6 +670,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmentexpts.new_archive.zip",
         "size": "423.27KB",
         "updated": "07-01-2024",
+        "description": "protein subcellular localization evidence scores by integrating experimental data",
         "nodes": 6554,
         "edges": 91061
     },
@@ -604,6 +679,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensencompartmenttextmining.new_archive.zip",
         "size": "4.23MB",
         "updated": "07-01-2024",
+        "description": "gene-cellular compartment co-occurrence scores from text-mining biomedical abstracts",
         "nodes": 16456,
         "edges": 546634
     },
@@ -612,6 +688,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseasecurated.new_archive.zip",
         "size": "96.24KB",
         "updated": "07-01-2024",
+        "description": "disease gene evidence scores by manual literature curation",
         "nodes": 3022,
         "edges": 18144
     },
@@ -620,6 +697,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseaseexpts.new_archive.zip",
         "size": "229.23KB",
         "updated": "07-01-2024",
+        "description": "disease gene evidence scores by integrating experimental data (GWAS)",
         "nodes": 4405,
         "edges": 35164
     },
@@ -628,6 +706,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensendiseasetextmining.new_archive.zip",
         "size": "6.43MB",
         "updated": "07-01-2024",
+        "description": "gene-disease co-occurrence scores from text-mining biomedical abstracts",
         "nodes": 19937,
         "edges": 832622
     },
@@ -636,6 +715,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissuecurated.new_archive.zip",
         "size": "1.40MB",
         "updated": "07-01-2024",
+        "description": "protein tissue expression evidence scores by manual literature curation",
         "nodes": 16858,
         "edges": 357465
     },
@@ -644,6 +724,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissueexpts.new_archive.zip",
         "size": "1.07MB",
         "updated": "07-01-2024",
+        "description": "protein tissue expression evidence scores by integrating experimental data",
         "nodes": 15748,
         "edges": 274154
     },
@@ -652,6 +733,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/jensentissuetextmining.new_archive.zip",
         "size": "6.62MB",
         "updated": "07-01-2024",
+        "description": "gene-tissue co-occurrence scores from text-mining biomedical abstracts",
         "nodes": 20371,
         "edges": 1836577
     },
@@ -660,6 +742,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kea.new_archive.zip",
         "size": "73.62KB",
         "updated": "07-01-2024",
+        "description": "protein substrates of kinases from published low-throughput and high-throughput phosphoproteomics studies",
         "nodes": 3863,
         "edges": 12161
     },
@@ -668,6 +751,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kegg.new_archive.zip",
         "size": "64.33KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from KEGG",
         "nodes": 4147,
         "edges": 9324
     },
@@ -676,6 +760,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinaselib.new_archive.zip",
         "size": "168.87KB",
         "updated": "07-01-2024",
+        "description": "A phosphoproteomics atlas detailing phosphorylation of protein substrates by 303 serine/threonine kinases in the human kinome.",
         "nodes": 5349,
         "edges": 30299
     },
@@ -684,6 +769,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinativ.new_archive.zip",
         "size": "2.87KB",
         "updated": "07-01-2024",
+        "description": "percent inhibition of kinases by small molecules measured in cell lysates",
         "nodes": 125,
         "edges": 149
     },
@@ -692,6 +778,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/kinomescan.new_archive.zip",
         "size": "17.18KB",
         "updated": "07-01-2024",
+        "description": "kinase inhibitor targets from percent inhibition of kinases by small molecules measured using purified kinases",
         "nodes": 348,
         "edges": 2057
     },
@@ -700,6 +787,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijncnv.new_archive.zip",
         "size": "20.14MB",
         "updated": "07-01-2024",
+        "description": "gene-level copy number variation profiles for cancer cell lines",
         "nodes": 25590,
         "edges": 2495888
     },
@@ -708,6 +796,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijnmrna.new_archive.zip",
         "size": "11.64MB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for cancer cell lines",
         "nodes": 14594,
         "edges": 1357992
     },
@@ -716,6 +805,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/klijnmut.new_archive.zip",
         "size": "678.71KB",
         "updated": "07-01-2024",
+        "description": "SNP gene mutations in cancer cell lines identified by microarray",
         "nodes": 15043,
         "edges": 133818
     },
@@ -724,6 +814,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/knocktf.new_archive.zip",
         "size": "650.80KB",
         "updated": "07-01-2024",
+        "description": "Gene expression profiles for cell lines or tissues following transcription factor perturbation (knockdown/knockout)",
         "nodes": 18529,
         "edges": 108820
     },
@@ -732,6 +823,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/komp.new_archive.zip",
         "size": "212.17KB",
         "updated": "07-01-2024",
+        "description": "Observed phenotypes of mice following gene knockout",
         "nodes": 7430,
         "edges": 36451
     },
@@ -740,6 +832,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/l1000chempert.new_archive.zip",
         "size": "45.41MB",
         "updated": "07-01-2024",
+        "description": "MRNA expression profiles for cell lines following small molecule perturbation",
         "nodes": 36039,
         "edges": 5086167
     },
@@ -748,6 +841,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/l1000crispr.new_archive.zip",
         "size": "10.42MB",
         "updated": "07-01-2024",
+        "description": "gene association consensus signatures following CRISPR gene knockout",
         "nodes": 14600,
         "edges": 2524500
     },
@@ -756,6 +850,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/lincscmapchemical.new_archive.zip",
         "size": "20.20MB",
         "updated": "07-01-2024",
+        "description": "gene association consensus signatures following small molecule perturbation",
         "nodes": 39375,
         "edges": 4189677
     },
@@ -764,6 +859,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/locate.new_archive.zip",
         "size": "344.33KB",
         "updated": "07-01-2024",
+        "description": "subcellular localization of proteins from low-throughput or high-throughput protein localization assays",
         "nodes": 9717,
         "edges": 79181
     },
@@ -772,6 +868,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/locatepredicted.new_archive.zip",
         "size": "705.33KB",
         "updated": "07-01-2024",
+        "description": "subcellular localization of proteins by sequence similarity to localization sequences",
         "nodes": 19771,
         "edges": 154700
     },
@@ -780,6 +877,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mgimpo.new_archive.zip",
         "size": "1.92MB",
         "updated": "07-01-2024",
+        "description": "observed phenotypes of transgenic mice collected from mouse phenotyping studies",
         "nodes": 16377,
         "edges": 466673
     },
@@ -788,6 +886,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mgiphenotype.new_archive.zip",
         "size": "1.20MB",
         "updated": "07-01-2024",
+        "description": "observed phenotypes of transgenic mice collected from mouse phenotyping studies",
         "nodes": 23128,
         "edges": 252920
     },
@@ -796,6 +895,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mirtarbase.new_archive.zip",
         "size": "233.68KB",
         "updated": "07-01-2024",
+        "description": "target genes of microRNAs from published experiments",
         "nodes": 12682,
         "edges": 37415
     },
@@ -804,6 +904,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/motifmap.new_archive.zip",
         "size": "782.51KB",
         "updated": "07-01-2024",
+        "description": "target genes of transcription factors predicted using known transcription factor binding site motifs",
         "nodes": 20763,
         "edges": 158860
     },
@@ -812,6 +913,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/motrpac.new_archive.zip",
         "size": "633.32KB",
         "updated": "07-01-2024",
+        "description": "RNA-seq gene expression profiles for rat tissue samples across 4 time points and 19 tissues",
         "nodes": 12568,
         "edges": 95052
     },
@@ -820,6 +922,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/msigdbcomp.new_archive.zip",
         "size": "204.85KB",
         "updated": "07-01-2024",
+        "description": "computational signatures of genes co-expressed with cancer related genes",
         "nodes": 5225,
         "edges": 41327
     },
@@ -828,6 +931,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/msigdbonc.new_archive.zip",
         "size": "209.69KB",
         "updated": "07-01-2024",
+        "description": "oncogenic signatures of genes differentially expressed following cancer gene perturbations",
         "nodes": 10855,
         "edges": 29967
     },
@@ -836,6 +940,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/mwmetabolites.new_archive.zip",
         "size": "34.19KB",
         "updated": "07-01-2024",
+        "description": "biomolecular interactions between metabolites and proteinscurated from experimental studies",
         "nodes": 1799,
         "edges": 5042
     },
@@ -844,6 +949,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/omim.new_archive.zip",
         "size": "162.73KB",
         "updated": "07-01-2024",
+        "description": "disease- or phenotype-causing gene mutations for heritable human diseases or phenotypes curated from biomedical publications",
         "nodes": 10093,
         "edges": 6666
     },
@@ -852,6 +958,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/panther.new_archive.zip",
         "size": "35.60KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from PANTHER",
         "nodes": 2107,
         "edges": 4255
     },
@@ -860,6 +967,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pc.new_archive.zip",
         "size": "13.39MB",
         "updated": "07-01-2024",
+        "description": "protein-protein interactions from low-throughput or high-throughput studies aggregated by Pathway Commons from the following databases: Reactome, NCI Pathways, PhosphoSite, HumanCyc, HPRD, PANTHER, DIP, BioGRID, IntAct, BIND, Transfac, MiRTarBase, Drugbank, Recon X, Comparative Toxicogenomics Database, and KEGG",
         "nodes": 31494,
         "edges": 3527164
     },
@@ -868,6 +976,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pfocr.new_archive.zip",
         "size": "2.82MB",
         "updated": "07-01-2024",
+        "description": "sets of genes extracted from pathway figure using optical character recognition",
         "nodes": 48637,
         "edges": 307416
     },
@@ -876,6 +985,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositeplus.new_archive.zip",
         "size": "46.46KB",
         "updated": "07-01-2024",
+        "description": "kinase-substrate interactions curated from low-throughput or high-throughput phosphoproteomics studies",
         "nodes": 2806,
         "edges": 6013
     },
@@ -884,6 +994,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositeplusdisease.new_archive.zip",
         "size": "6.75KB",
         "updated": "07-01-2024",
+        "description": "disease-phosphosite associations curated from literature",
         "nodes": 352,
         "edges": 356
     },
@@ -892,6 +1003,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/phosphositetextmining.new_archive.zip",
         "size": "686.68KB",
         "updated": "07-01-2024",
+        "description": "occurrence frequencies for biological terms in abstracts of publications describing phosphosites",
         "nodes": 3738,
         "edges": 159580
     },
@@ -900,6 +1012,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/pid.new_archive.zip",
         "size": "52.39KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from PID",
         "nodes": 2733,
         "edges": 8027
     },
@@ -908,6 +1021,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/proteomicsdb.new_archive.zip",
         "size": "205.16KB",
         "updated": "07-01-2024",
+        "description": "protein expression profiles for tissues and cell types reprocessed from many proteomics datasets",
         "nodes": 2829,
         "edges": 21921
     },
@@ -916,6 +1030,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/reactome.new_archive.zip",
         "size": "462.14KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from Reactome",
         "nodes": 9173,
         "edges": 83680
     },
@@ -924,6 +1039,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/sangerdepmap.new_archive.zip",
         "size": "909.41KB",
         "updated": "07-01-2024",
+        "description": "Protein intensity values acquired using data-independent acquisition mass spectrometry (DIA-MS).",
         "nodes": 9179,
         "edges": 189800
     },
@@ -932,6 +1048,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacdrug.new_archive.zip",
         "size": "47.29KB",
         "updated": "07-01-2024",
+        "description": "phosphorylation levels of proteins in cell lines following drug treatment\\t",
         "nodes": 2793,
         "edges": 5808
     },
@@ -940,6 +1057,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacgene.new_archive.zip",
         "size": "6.54KB",
         "updated": "07-01-2024",
+        "description": "phosphorylation levels of proteins in cell lines following genetic perturbation (knockdown, knockout, over-expression, mutation)",
         "nodes": 213,
         "edges": 840
     },
@@ -948,6 +1066,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/silacligand.new_archive.zip",
         "size": "38.45KB",
         "updated": "07-01-2024",
+        "description": "phosphorylation levels of proteins in cell lines following ligand treatment",
         "nodes": 2031,
         "edges": 5439
     },
@@ -956,6 +1075,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/tabulasapiens.new_archive.zip",
         "size": "329.50KB",
         "updated": "07-01-2024",
+        "description": "gene expression data from Tabula Sapiens scRNA-seq counts",
         "nodes": 8653,
         "edges": 46900
     },
@@ -964,6 +1084,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/targetscan.new_archive.zip",
         "size": "3.18MB",
         "updated": "07-01-2024",
+        "description": "target genes of microRNAs predicted by searching genes for sites matching conserved miRNA seed regions",
         "nodes": 16460,
         "edges": 513997
     },
@@ -972,6 +1093,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/targetscannonconserved.new_archive.zip",
         "size": "3.35MB",
         "updated": "07-01-2024",
+        "description": "target genes of microRNAs predicted by searching genes for sites matching nonconserved miRNA seed regions",
         "nodes": 19587,
         "edges": 627985
     },
@@ -980,6 +1102,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/tcga.new_archive.zip",
         "size": "18.86MB",
         "updated": "07-01-2024",
+        "description": "mRNA expression profiles for tumor and normal tissue samples",
         "nodes": 25698,
         "edges": 4367061
     },
@@ -988,6 +1111,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/virusmint.new_archive.zip",
         "size": "11.34KB",
         "updated": "07-01-2024",
+        "description": "interactions between viruses and human proteins manually curated from literature",
         "nodes": 774,
         "edges": 1036
     },
@@ -996,6 +1120,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/virusmintppi.new_archive.zip",
         "size": "11.89KB",
         "updated": "07-01-2024",
+        "description": "interactions between viral and human proteins manually curated from literature",
         "nodes": 891,
         "edges": 1140
     },
@@ -1004,6 +1129,7 @@
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/wikipathways.new_archive.zip",
         "size": "132.56KB",
         "updated": "07-01-2024",
+        "description": "sets of proteins participating in pathways from Wikipathways",
         "nodes": 6520,
         "edges": 22242
     }
