@@ -1,10 +1,7 @@
-## Harmonizome-KG: Bridging Enrichment Analysis Across Multiple Datasets
+## Harmonizome-KG: Visualizing Gene-Term Relations Across 120+ Datasets
 
-![Homepage](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/Example.png)
 
 ### Abstract
-
-Gene and protein enrichment analysis is a critical step in the analysis of data collected from omics experiments. [Enrichr](https://maayanlab.cloud/Enrichr/) is a popular gene set enrichment analysis web-server search engine that contains hundreds of thousand annotated gene sets; it provides a comprehensive resource for annotated gene sets based on existing biological knowledge. While Enrichr has been useful in providing enrichment analysis against many gene set libraries from different domains, integrating enrichment results across libraries and domains of knowledge can further hypothesis generation. To this end, Enrichr-KG is a knowledge graph and web-server application that combines selected gene set libraries from Enrichr and presents these to the user for integrated analysis and visualization. Nodes in Enrichr-KG are either genes or functional terms, while edges connect genes to their enriched terms. This graphical representation of Enrichr libraries can illuminate hidden associations between genes and annotated terms from across multiple datasets. Enrichr-KG currently serves over 20 gene set libraries from different categories that include transcription, pathways, ontologies, diseases/drugs, and cell types. Enrichr-KG is freely available at https://maayanlab.cloud/enrichr-kg. 
 
 
 ### Processed Datasets Included in Harmonizome-KG
@@ -137,66 +134,7 @@ Gene and protein enrichment analysis is a critical step in the analysis of data 
 | VirusMINT Virus                          |     706 |      68 |    1036 |
 | VirusMINT Viral Protein                  |     706 |     185 |    1140 |
 | WikiPathways Pathways                    |    6093 |     427 |   22242 |
-### Using Enrichr-KG
-
-#### 1. Performing enrichhment analysis
-##### 1.1 Submitting a query
-![Input Form](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/input.png)
-
-A typical analysis with Enrichr-KG begins by inputting a gene set in the text box shown above, and selecting up to 5 Enrichr libraries to query. You can further control the results by tweaking the following parameters:
-* **Minimum libraries per gene:** Filters out genes that are not enriched in multiple libraries.
-* **Minimum links per gene:** Filters out genes that do not overalap with multiple terms.
-* **Minimum links per term:** Filters out terms that only overlap with few genes.
-* **Subgraph size limit:** Controls the size of the subgraph by only keeping the top genes that are connected to multiple terms across libraries.
-
-Furthermore, users can add a description to their gene set and control the number of terms returned per library. By default this is set to 5. In the screenshot above, we used the example gene set and selected the two LINCS-related datasets for enrichment analysis.
-
-##### 1.2 Navigating the results
-![Enrichment Result](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/enrichment_result.png)
-Upon clicking submit, the user is redirected to the results page which should look like the image above. Nodes are colored based on their type. The results can be displayed as a bar chart showing the top enrichred terms ordered by p-value. The icons on the upper right corner enable users to: (1) display the legend; (2) refresh, re-orient, or clear the graph; (3) display the edge labels; (4) download the graph as an image (JPG, PNG, or SVG); (5) share a permanent link; and (6) enter full screen mode.
-
-![Hover Node](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/hover.png)
-Hovering over the nodes and edges invokes a text box on the top left containing the metadata of the node or edge. The has buttons to: (1) delete a node from the subnetwork; (2) go to the node's page to view its immediate neighbors; and (3) close the box.
-
-##### 1.3 Augmenting the enrichment subnetwork with co-expressed genes
-
-You can augment your subnetwork with additional genes that are co-expressed with the genes in the subnetwork. This option sends the overlapping gene to [Geneshot's](https://maayanlab.cloud/geneshot/) API that uses the gene co-expression matrix from [ARCHS4](https://maayanlab.cloud/archs4/) to return the genes with the top mean correlation scores with all of the overlapping genes in the subnetwork.
-
-![enrich_augmentation](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/augment_enrichment.png)
-
-##### 1.3 Viewing PPI and Co-expression links between genes
-
-Enrichr-KG hosts gene-gene links using co-expression data from [ARCHS4](https://maayanlab.cloud/archs4/) and PPI data from [STRING](https://string-db.org/). By selecting this option, you can view the connections between the overlapping and augmented genes in the network.
-
-![enrich_gene_links](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/gene_links_enrichment.png)
-
-
-
-#### 2. Querying terms or genes
-Enrichr-KG also implements the Enrichr's gene and term search functionality. This enables viewing the immediate neighbors for a gene, i.e., what annotated gene sets include that gene; or the immediate neighbors of a term, i.e., the genes associated with the term. Control icons in this display are similar to ones that are present in the enrichment results interface. Importantly, the user can control how many neighbors to display.
-![Single Term](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/single-term.png)
-
-Furthermore, users can view selected relationships of interest by using the relations filter.
-![Relation](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/relation.png)
-
-You can expand the network by clicking the + sign to find the shortest path between a start term and a type of end node or an end term.
-![form_options](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/form_option.png)
-
-
-To view the shortest path between a start term (the gene COPB2) and a type of node (Human Phenotype Ontology), you can select the `node_type` on the "End with" select form.
-![Single To Node](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/start_end_node.png)
-
-
-Furthermore, Enrichr-KG also provides the ability to perform two term/gene search. This function finds all the shortest paths between any two entities within the Enrichr-KG knowledge graph. This fucntionality facilitates the discovery of hidden connections between functional terms and genes.
-![Two Term](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/two-term.png)
-
-Augmentation and gene links via PPI and co-expression are also available in the term and gene search page:
-
-![Augment Search](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/augment_search.png)
-
-![Gene Link Search](https://s3.amazonaws.com/maayan-kg/enrichr-kg/assets/060624/gene_links_search.png)
-
-
+### Using Harmonizome-KG
 
 ## Please acknowledge Enrichr-KG in your publications by citing the following reference:
 
