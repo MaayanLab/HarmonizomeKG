@@ -953,6 +953,40 @@
             ]
         },
         {
+            "node": "MPO Phenotype",
+            "example": [
+                "abnormal vagal neural crest cell morphology",
+                "absent vagal neural crest cells"
+            ],
+            "display": [
+                {
+                    "label": "MPO Phenotype ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
             "node": "ABA Prenatal Human",
             "example": [
                 "VZ in primary visual cortex",
@@ -2245,6 +2279,40 @@
             ]
         },
         {
+            "node": "LINCS L1000 CMAP Chem Pert Consensus Signatures",
+            "example": [
+                "BRD-K02519835",
+                "CI-1040"
+            ],
+            "display": [
+                {
+                    "label": "LINCS L1000 CMAP Chem Pert Consensus Signatures ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
             "node": "ClinVar",
             "example": [
                 "Marshall/Stickler syndrome",
@@ -2891,40 +2959,6 @@
             ]
         },
         {
-            "node": "LINCS CMAP Chemical",
-            "example": [
-                "BRD-A00267231_HEMADO_A549_24.0_h_10.0_um",
-                "BRD-A00267231_HEMADO_ASC_24.0_h_10.0_um"
-            ],
-            "display": [
-                {
-                    "label": "LINCS CMAP Chemical ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
             "node": "BioGPS Human",
             "example": [
                 "pineal_day",
@@ -3163,40 +3197,6 @@
             ]
         },
         {
-            "node": "LINCS L1000 Chem Pert",
-            "example": [
-                "BRD-K02519835",
-                "CI-1040"
-            ],
-            "display": [
-                {
-                    "label": "LINCS L1000 Chem Pert ID",
-                    "text": "${id'}",
-                    "type": "text"
-                },
-                {
-                    "label": "label",
-                    "text": "${label}",
-                    "type": "text"
-                },
-                {
-                    "label": "namespace",
-                    "text": "${namespace}",
-                    "type": "text"
-                },
-                {
-                    "label": "type",
-                    "text": "${type}",
-                    "type": "text"
-                }
-            ],
-            "relation": [],
-            "search": [
-                "id",
-                "label"
-            ]
-        },
-        {
             "node": "MotifMap",
             "example": [
                 "CREB",
@@ -3333,14 +3333,14 @@
             ]
         },
         {
-            "node": "CMAP Small Molecule Perturbations",
+            "node": "LINCS L1000 CMAP Signatures of Diff Expressed Genes",
             "example": [
                 "1,4-chrysenequinone-1773",
                 "1,4-chrysenequinone-7139"
             ],
             "display": [
                 {
-                    "label": "CMAP Small Molecule Perturbations ID",
+                    "label": "LINCS L1000 CMAP Signatures of Diff Expressed Genes ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -3613,6 +3613,40 @@
             "display": [
                 {
                     "label": "MoTrPAC ID",
+                    "text": "${id'}",
+                    "type": "text"
+                },
+                {
+                    "label": "label",
+                    "text": "${label}",
+                    "type": "text"
+                },
+                {
+                    "label": "namespace",
+                    "text": "${namespace}",
+                    "type": "text"
+                },
+                {
+                    "label": "type",
+                    "text": "${type}",
+                    "type": "text"
+                }
+            ],
+            "relation": [],
+            "search": [
+                "id",
+                "label"
+            ]
+        },
+        {
+            "node": "MPO Mouse Phenotype 2023",
+            "example": [
+                "liver hypoplasia",
+                "abnormal placenta labyrinth morphology"
+            ],
+            "display": [
+                {
+                    "label": "MPO Mouse Phenotype 2023 ID",
                     "text": "${id'}",
                     "type": "text"
                 },
@@ -4882,6 +4916,34 @@
         },
         {
             "match": [
+                "increases_expression_of_(LINCS L1000 CMAP Signatures of Diff Expressed Genes)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
                 "targets_(TargetScan Nonconserved)"
             ],
             "selected": true,
@@ -4937,6 +4999,34 @@
                 {
                     "label": "standardized value",
                     "text": "${standardized_value}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
+                "positively_regulated_by_(LINCS L1000 CMAP Chem Pert Consensus Signatures)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
                     "type": "text"
                 },
                 {
@@ -5650,6 +5740,34 @@
         },
         {
             "match": [
+                "has_phenotype_(MPO Phenotype)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
                 "colocalizes_with_(LOCATE Predicted Protein)"
             ],
             "selected": true,
@@ -6234,34 +6352,6 @@
                 {
                     "label": "standardized value",
                     "text": "${standardized_value}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "increases_expression_of_(LINCS CMAP Chemical)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
                     "type": "text"
                 },
                 {
@@ -7379,34 +7469,6 @@
         },
         {
             "match": [
-                "decreases_expression_of_(LINCS CMAP Chemical)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
                 "under-expressed_in_(HPA Tissue Protein)"
             ],
             "selected": true,
@@ -7562,6 +7624,34 @@
         },
         {
             "match": [
+                "expressed_in_(MPO Mouse Phenotype 2023)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
                 "has_disease_(PhosphoSitePlus Disease)"
             ],
             "selected": true,
@@ -7591,34 +7681,6 @@
         {
             "match": [
                 "has_a_mutation_in_(COSMIC Mutations)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "decreases_expression_of_(CMAP Small Molecule Perturbations)"
             ],
             "selected": true,
             "display": [
@@ -7736,6 +7798,34 @@
         {
             "match": [
                 "has_a_mutation_in_(CCLE Mutations)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
+                "decreases_expression_of_(LINCS L1000 CMAP Signatures of Diff Expressed Genes)"
             ],
             "selected": true,
             "display": [
@@ -8589,6 +8679,34 @@
         },
         {
             "match": [
+                "negatively_regulated_by_(LINCS L1000 CMAP Chem Pert Consensus Signatures)"
+            ],
+            "selected": true,
+            "display": [
+                {
+                    "label": "source",
+                    "text": "${source}",
+                    "type": "text"
+                },
+                {
+                    "label": "relation",
+                    "text": "${relation}",
+                    "type": "text"
+                },
+                {
+                    "label": "target",
+                    "text": "${target}",
+                    "type": "text"
+                },
+                {
+                    "label": "threshold",
+                    "text": "${threshold}",
+                    "type": "text"
+                }
+            ]
+        },
+        {
+            "match": [
                 "over-expressed_in_(HPA Tissue Protein)"
             ],
             "selected": true,
@@ -8623,62 +8741,6 @@
         {
             "match": [
                 "expressed_in_(TISSUES Curated)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "increases_expression_of_(CMAP Small Molecule Perturbations)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "negatively_regulated_by_(LINCS L1000 Chem Pert)"
             ],
             "selected": true,
             "display": [
@@ -9035,34 +9097,6 @@
         {
             "match": [
                 "participates_in_(PANTHER)"
-            ],
-            "selected": true,
-            "display": [
-                {
-                    "label": "source",
-                    "text": "${source}",
-                    "type": "text"
-                },
-                {
-                    "label": "relation",
-                    "text": "${relation}",
-                    "type": "text"
-                },
-                {
-                    "label": "target",
-                    "text": "${target}",
-                    "type": "text"
-                },
-                {
-                    "label": "threshold",
-                    "text": "${threshold}",
-                    "type": "text"
-                }
-            ]
-        },
-        {
-            "match": [
-                "positively_regulated_by_(LINCS L1000 Chem Pert)"
             ],
             "selected": true,
             "display": [

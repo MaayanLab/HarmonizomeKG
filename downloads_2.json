@@ -1,6 +1,7 @@
 [
     {
         "source": "Achilles",
+        "harmonizome": "https://maayanlab.cloud/Harmonizome/dataset/Achilles+Cell+Line+Gene+Essentiality+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/achilles.new_archive.zip",
         "size": "969.51KB",
         "updated": "07-01-2024",
@@ -10,6 +11,7 @@
     },
     {
         "source": "HuBMAP Azimuth Cell Type",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/HuBMAP+Azimuth+Cell+Type+Annotations",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/azimuth.new_archive.zip",
         "size": "124.06KB",
         "updated": "07-01-2024",
@@ -19,6 +21,7 @@
     },
     {
         "source": "Biocarta",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/Biocarta+Pathways",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biocarta.new_archive.zip",
         "size": "32.37KB",
         "updated": "07-01-2024",
