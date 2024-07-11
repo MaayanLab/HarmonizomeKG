@@ -1,6 +1,6 @@
 [
     {
-        "source": "Achilles",
+        "source": "<a href='https://www.google.com'>Achilles</a>",
         "harmonizome": "https://maayanlab.cloud/Harmonizome/dataset/Achilles+Cell+Line+Gene+Essentiality+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/achilles.new_archive.zip",
         "size": "969.51KB",
@@ -31,6 +31,7 @@
     },
     {
         "source": "BioGPS Human",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/BioGPS+Human+Cell+Type+and+Tissue+Gene+Expression+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpshuman.new_archive.zip",
         "size": "1.81MB",
         "updated": "07-01-2024",
@@ -40,6 +41,7 @@
     },
     {
         "source": "BioGPS Mouse",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/BioGPS+Mouse+Cell+Type+and+Tissue+Gene+Expression+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsmouse.new_archive.zip",
         "size": "1.50MB",
         "updated": "07-01-2024",
@@ -49,6 +51,7 @@
     },
     {
         "source": "BioGPS NCI-60",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/BioGPS+Cell+Line+Gene+Expression+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/biogpsnci60.new_archive.zip",
         "size": "1.68MB",
         "updated": "07-01-2024",
@@ -58,6 +61,7 @@
     },
     {
         "source": "ABA Adult Human",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/Allen+Brain+Atlas+Adult+Human+Brain+Tissue+Gene+Expression+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadulthuman.new_archive.zip",
         "size": "9.26MB",
         "updated": "07-01-2024",
@@ -67,6 +71,7 @@
     },
     {
         "source": "ABA Adult Mouse",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/Allen+Brain+Atlas+Adult+Mouse+Brain+Tissue+Gene+Expression+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasadultmouse.new_archive.zip",
         "size": "25.95MB",
         "updated": "07-01-2024",
@@ -76,6 +81,7 @@
     },
     {
         "source": "ABA Developmental Human Microarray",
+        "harmonizome":"https://maayanlab.cloud/Harmonizome/dataset/Allen+Brain+Atlas+Developing+Human+Brain+Tissue+Gene+Expression+Profiles+by+Microarray",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/brainatlasdevelopmentalhumanmicroarray.new_archive.zip",
         "size": "10.55MB",
         "updated": "07-01-2024",
