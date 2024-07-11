@@ -1,6 +1,6 @@
 [
     {
-        "source": "<a href='https://www.google.com'>Achilles</a>",
+        "source": "Achilles",
         "harmonizome": "https://maayanlab.cloud/Harmonizome/dataset/Achilles+Cell+Line+Gene+Essentiality+Profiles",
         "url": "http://s3.amazonaws.com/maayan-kg/harmonizome-kg/assertions/achilles.new_archive.zip",
         "size": "969.51KB",
