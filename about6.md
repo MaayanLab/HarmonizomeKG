@@ -1,8 +1,5 @@
 ## Harmonizome-KG: Visualizing Gene-Term Relations Across 120+ Datasets
 
-### Abstract
-WIP
-
 ### Processed Datasets Included in Harmonizome-KG
 | Dataset                                  | Source Type                               | Target Type                               | Resource Link                                                             |   Genes |   Terms |   Edges |
 |:-----------------------------------------|:------------------------------------------|:------------------------------------------|:--------------------------------------------------------------------------|--------:|--------:|--------:|
@@ -133,9 +130,33 @@ WIP
 | [VirusMINT Viral Protein](https://maayanlab.cloud/Harmonizome/dataset/Virus+MINT+Protein-Viral+Protein+Interactions)                  | gene                                      | viral protein                             | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686573/                     |     706 |     185 |    1140 |
 | [WikiPathways Pathways](https://maayanlab.cloud/Harmonizome/dataset/Wikipathways+Pathways)                    | gene                                      | pathway                                   | https://www.wikipathways.org/index.php/WikiPathways                       |    6093 |     427 |   22242 |
 
-## Tutorials
-WIP
+### Using BKG
 
-## Please acknowledge Enrichr-KG in your publications by citing the following reference:
+#### 1. Creating a subnetwork
+##### 1.1 One-term Search
 
-[Evangelista JE, Xie Z, Marino GB, Nguyen N, Clarke DJB, Ma'ayan A. Enrichr-KG: bridging enrichment analysis across multiple libraries. Nucleic Acids Res. 2023 May 11:gkad393. doi: 10.1093/nar/gkad393. PMID: 37166973.](https://academic.oup.com/nar/article/51/W1/W168/7160192)
+To begin a query with Harmonizome-KG, the UI requires the input of a starting node. In the dropdown boxes on the left, you can select the node you would like to look up by either dataset or type "gene", and whether you would like to search by id or label. Then you will need to enter the id or label underneath.
+
+For example, if we want to search up a gene and we know the label, we can select "gene" in the first dropdown box and select "label". Then we can enter the label "STAT3" and the following subnetwork will be generated automatically! 
+
+##### 1.2 Refining the search by relation
+
+
+With the Term & Gene search, you can refine your results in various ways. In the picture above, we want to see the phenotypes and diseases from GWASdb Catalog the search term is related to. To do this, we can use the "Select Relation" dropdown to select the relations "has_phenotype_(GWASdb Phenotype)" and "has_disease_(GWASdb Disease)". The generated graph shows these target nodes in relation to the search node and separates the datasets by color.
+
+##### 1.3 Refining the search by resource icon
+
+
+You can also limit the subnetwork's results by specifying which resource nodes you would like to see in the subnetwork! You can do this by clicking on one of the resource icons at the top of the page. In the picture above, we clicked the "GWASdb Catalog" icon to generate the subnetwork with edges specifically from genes to phenotypes and diseases from this resource. If you would like to specifically see target nodes from the phenotype dataset, you can "x" out the disease relation.
+
+##### 1.4 Changing the subnetwork display
+
+With Term & Gene Search, there are various ways to change the way the subnetwork is displayed and saved! You can use the slider bar above the network view to increase or decrease the maximum amount of relations you wish to display for each relation type. For example, sliding the bar to "5" will display at most 5 edges of each relation. On the right, the full-screen icon will display the subnetwork in full-screen. The first two mini icons next to the full-screen icon represent viewing the subnetwork as 1. a graph or 2. a table. The next two icons represent two ways to save the subnetwork: 1. as tsv files separated by nodes and edges or 2. as a png. The last group of icons refer to ways to change the network view: 1. enabling tooltips which each node's metadata as you hover over them; 2. switching the graph layout to be i. force-directed, ii. hierarchichal, and iii. geometric; 3. showing edge labels; and 4. showing a legend to see the different node types each color represents.
+
+##### 1.5 Two-term Search
+
+
+Generate a more complex subnetwork with Gene and Term Search's Two-term Search! First enter a starting node similar to the one-term search and then toggle "end node". This will produce another node field for you to enter the ending node. In the picture above, we wanted to generate a subnetwork of all the nodes and edges that connect the gene "STAT3" to a node from the HMDB resource. The generated subnetwork gave us a variety of nodes and edges from different datasets that connect the two nodes along the shortest path between them. We could have also specified the HMDB node label to get a more exact search.
+
+There are a few use cases on the "Use Case" page that provide some applications of the two-term search in a clinical context!
+
