@@ -130,7 +130,7 @@
 | [VirusMINT Viral Protein](https://maayanlab.cloud/Harmonizome/dataset/Virus+MINT+Protein-Viral+Protein+Interactions)                  | gene                                      | viral protein                             | https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2686573/                     |     706 |     185 |    1140 |
 | [WikiPathways Pathways](https://maayanlab.cloud/Harmonizome/dataset/Wikipathways+Pathways)                    | gene                                      | pathway                                   | https://www.wikipathways.org/index.php/WikiPathways                       |    6093 |     427 |   22242 |
 
-### Using BKG
+### Using Harmonizome-KG
 
 #### 1. Creating a subnetwork
 ##### 1.1 One-term Search
