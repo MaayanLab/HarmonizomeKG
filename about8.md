@@ -4,7 +4,7 @@
 
 #### 1. Creating a subnetwork
 ##### 1.1 One-term Search
-![One-Term Search](https://s3.amazonaws.com/maayan-kg/harmonizome-kg/assets/one-term.png)
+![One-Term Search](https://s3.amazonaws.com/maayan-kg/harmonizome-kg/assets/one_term.png)
 
 To begin a query with , the UI requires the input of a starting dataset or gene. In the dropdown boxes on the left, you can select the dataset or gene you would like to look up and choose whether you would like to search by ID or label. Then you will need to enter the ID or label underneath.
 
